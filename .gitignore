@@ -1,0 +1,6 @@
+bin/
+obj/
+.vscode/*
+publish/
+!.vscode/launch.json
+!.vscode/tasks.json
