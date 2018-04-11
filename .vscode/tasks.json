@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/src/Rasodu.EquityIndexes/Rasodu.EquityIndexes.csproj"
+                "${workspaceFolder}/EquityIndexes.sln"
             ],
             "problemMatcher": "$msCompile"
         }
