@@ -10,14 +10,13 @@ namespace Rasodu.EquityIndexes
         internal CSVEquityIndexStore(TextWriter destination)
         {
             _destination = destination;
+            _destination.NewLine = "\n";
         }
         public void ReplaceAll(List<Equity> equities)
         {
             var csv = new CsvWriter(_destination);
             csv.Configuration.Delimiter = ",";
-            //csv.WriteHeader<Equity>();
             csv.WriteRecords<Equity>(equities);
-            //csv.WriteRecords(equities);
             _destination.Flush();
         }
     }

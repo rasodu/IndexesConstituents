@@ -25,7 +25,6 @@ namespace Rasodu.EquityIndexes.Test
                 }
             };
             TextWriter writer = new StringWriter();
-            writer.NewLine = "\n";
             var equityStore = new CSVEquityIndexStore(writer);
             //act
             equityStore.ReplaceAll(expextedEquityList);
