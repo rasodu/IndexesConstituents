@@ -32,13 +32,13 @@ namespace Rasodu.EquityIndexes
             str = str.Replace("\r", "");
             str = str.Replace(" ", "");
             String rowPattern = @"<tr>(.*?)</tr>";
-            String cellPattern = @"<a(.*?)>(.*?)</a>";
+            String cellPattern = @"<td><a(.*?)>(.*?)</a></td>";
             foreach (Match m in Regex.Matches(str, rowPattern))
             {
                 if (m.Groups.Count == 2)
                 {
                     var cells = Regex.Matches(m.Groups[1].Value, cellPattern);
-                    if (cells.Count == 4)
+                    if (cells.Count >= 1)
                     {
                         var equity = new Equity
                         {
