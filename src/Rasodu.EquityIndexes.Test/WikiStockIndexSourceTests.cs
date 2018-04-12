@@ -14,28 +14,34 @@ namespace Rasodu.EquityIndexes.Test
 more text here-->
 <table class=""wikitable sortable"">
 <tr>
-<th>Company</th>
-<th>Exchange</th>
-<th>Symbol</th>
-<th>Industry</th>
-<th>Date Added</th>
-<th>Notes</th>
+<th><a href=""/wiki/Ticker_symbol"" title=""Ticker symbol"">Ticker symbol</a></th>
+<th>Security</th>
+<th><a href=""/wiki/SEC_filing"" title=""SEC filing"">SEC filings</a></th>
+<th><a href=""/wiki/Global_Industry_Classification_Standard"" title=""Global Industry Classification Standard"">GICS</a> Sector</th>
+<th>GICS Sub Industry</th>
+<th>Address of Headquarters</th>
+<th>Date first added<sup id=""cite_ref-3"" class=""reference""><a href=""#cite_note-3"">[3]</a></sup><sup id=""cite_ref-4"" class=""reference""><a href=""#cite_note-4"">[4]</a></sup></th>
+<th><a href=""/wiki/Central_Index_Key"" title=""Central Index Key"">CIK</a></th>
 </tr>
 <tr>
-<td><a href=""/wiki/3M"" title=""3M"">3M</a></td>
-<td><a href=""/wiki/New_York_Stock_Exchange"" title=""New York Stock Exchange"">NYSE</a></td>
 <td><a rel=""nofollow"" class=""external text"" href=""https://www.nyse.com/quote/XNYS:MMM"">MMM</a></td>
-<td><a href=""/wiki/Conglomerate_(company)"" title=""Conglomerate (company)"">Conglomerate</a></td>
-<td>1976-08-09</td>
-<td>as Minnesota Mining and Manufacturing</td>
+<td><a href=""/wiki/3M"" title=""3M"">3M Company</a></td>
+<td><a rel=""nofollow"" class=""external text"" href=""https://www.sec.gov/cgi-bin/browse-edgar?CIK=MMM&amp;action=getcompany"">reports</a></td>
+<td>Industrials</td>
+<td>Industrial Conglomerates</td>
+<td><a href=""/wiki/St._Paul,_Minnesota"" class=""mw-redirect"" title=""St. Paul, Minnesota"">St. Paul, Minnesota</a></td>
+<td></td>
+<td>0000066740</td>
 </tr>
 <tr>
-<td><a href=""/wiki/American_Express"" title=""American Express"">American Express</a></td>
-<td><a href=""/wiki/New_York_Stock_Exchange"" title=""New York Stock Exchange"">NYSE</a></td>
-<td><a rel=""nofollow"" class=""external text"" href=""https://www.nyse.com/quote/XNYS:AXP"">AXP</a></td>
-<td><a href=""/wiki/Consumer_finance"" class=""mw-redirect"" title=""Consumer finance"">Consumer finance</a></td>
-<td>1982-08-30</td>
-<td></td>
+<td><a rel=""nofollow"" class=""external text"" href=""https://www.nyse.com/quote/XNYS:ABT"">ABT</a></td>
+<td><a href=""/wiki/Abbott_Laboratories"" title=""Abbott Laboratories"">Abbott Laboratories</a></td>
+<td><a rel=""nofollow"" class=""external text"" href=""https://www.sec.gov/cgi-bin/browse-edgar?CIK=ABT&amp;action=getcompany"">reports</a></td>
+<td>Health Care</td>
+<td>Health Care Equipment</td>
+<td><a href=""/wiki/North_Chicago,_Illinois"" title=""North Chicago, Illinois"">North Chicago, Illinois</a></td>
+<td>1964-03-31</td>
+<td>0000001800</td>
 </tr>
 </table>
 <--more text here
@@ -47,7 +53,7 @@ more text here-->
                 new Equity
                 {
                     StockExchange = "NYSE",
-                    Identifier = "AXP",
+                    Identifier = "ABT",
                 },
                 new Equity
                 {
