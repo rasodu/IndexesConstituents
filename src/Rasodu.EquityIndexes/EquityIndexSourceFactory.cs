@@ -15,7 +15,7 @@ namespace Rasodu.EquityIndexes
                 var wikiPage = new Uri("https://en.wikipedia.org/wiki/List_of_S%26P_500_companies");
                 var wikiPageStream = client.GetAsync(wikiPage).GetAwaiter().GetResult().Content.ReadAsStreamAsync().GetAwaiter().GetResult();
                 TextReader wikiPageReader = new StreamReader(wikiPageStream);
-                source = new WikiStockIndexSource(wikiPageReader);
+                source = new WikiSP500EquityIndexSource(wikiPageReader);
             }
             return source;
         }
