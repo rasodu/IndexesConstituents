@@ -2,10 +2,10 @@
 
 namespace Rasodu.EquityIndexes
 {
-    internal class Equity : IComparable<Equity>, IEquatable<Equity>
+    public class Equity : IComparable<Equity>, IEquatable<Equity>
     {
-        internal string StockExchange = null;
-        internal string Identifier = null;
+        public string StockExchange { get; set; }
+        public string Identifier { get; set; }
         public int CompareTo(Equity other)
         {
             var compareVal = StockExchange.CompareTo(other.StockExchange);
