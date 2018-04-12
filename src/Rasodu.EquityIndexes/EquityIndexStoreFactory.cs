@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System.IO;
 
 namespace Rasodu.EquityIndexes
 {
@@ -6,7 +6,18 @@ namespace Rasodu.EquityIndexes
     {
         internal IEquityIndexStore GetStore(string equityIndex)
         {
-            throw new NotImplementedException();
+            IEquityIndexStore destination = null;
+            if(equityIndex == "SP500")
+            {
+                var fullPath = GetAbsolutePathFromSolutionRoot("CSV/SP500.csv");
+                TextWriter writer = File.CreateText(fullPath);
+                destination = new CSVEquityIndexStore(writer);
+            }
+            return destination;
+        }
+        private string GetAbsolutePathFromSolutionRoot(string relativePath)
+        {
+            return Path.GetFullPath("../../../../../" + relativePath);
         }
     }
 }
