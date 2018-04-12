@@ -17,7 +17,7 @@ namespace Rasodu.EquityIndexes
             var returnList = new List<Equity>();
             var str = _wikiPage.ReadToEnd();
             var splitedString = str.Split(@"<table class=""wikitable sortable"">");
-            if (splitedString.Length != 2)
+            if (splitedString.Length < 2)
             {
                 return returnList;
             }
