@@ -7,7 +7,13 @@ namespace Rasodu.EquityIndexes
         internal IEquityIndexStore GetStore(string equityIndex)
         {
             IEquityIndexStore destination = null;
-            if(equityIndex == "SP500")
+            if (equityIndex == "DowJones30")
+            {
+                var fullPath = GetAbsolutePathFromSolutionRoot("CSV/DowJones30.csv");
+                TextWriter writer = File.CreateText(fullPath);
+                destination = new CSVEquityIndexStore(writer);
+            }
+            else if (equityIndex == "SP500")
             {
                 var fullPath = GetAbsolutePathFromSolutionRoot("CSV/SP500.csv");
                 TextWriter writer = File.CreateText(fullPath);
