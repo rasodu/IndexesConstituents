@@ -1,4 +1,6 @@
-﻿namespace Rasodu.EquityIndexes
+﻿using System.Linq;
+
+namespace Rasodu.EquityIndexes
 {
     internal class EquityIndexUpdater
     {
@@ -12,6 +14,8 @@
         internal void Update()
         {
             var equitiesInIndex = _source.GetAllEquities();
+            equitiesInIndex = equitiesInIndex.Distinct().ToList();
+            equitiesInIndex.Sort();
             _store.ReplaceAll(equitiesInIndex);
         }
     }
