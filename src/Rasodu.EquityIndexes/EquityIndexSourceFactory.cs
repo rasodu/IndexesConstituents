@@ -23,7 +23,7 @@ namespace Rasodu.EquityIndexes
             }
             else if (equityIndex == "SP500")
             {
-                source = new WikiSP500EquityIndexSource(
+                source = new SP500EquityIndexSource(
                     UrlToTextReader("https://en.wikipedia.org/wiki/List_of_S%26P_500_companies")
                 );
             }

@@ -5,10 +5,10 @@ using System.Text.RegularExpressions;
 
 namespace Rasodu.EquityIndexes
 {
-    internal class WikiSP500EquityIndexSource : IEquityIndexSource
+    internal class SP500EquityIndexSource : IEquityIndexSource
     {
         private TextReader _wikiPage;
-        internal WikiSP500EquityIndexSource(TextReader wikiPage)
+        internal SP500EquityIndexSource(TextReader wikiPage)
         {
             _wikiPage = wikiPage;
         }
