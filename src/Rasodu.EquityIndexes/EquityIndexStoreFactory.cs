@@ -10,26 +10,39 @@ namespace Rasodu.EquityIndexes
             if (equityIndex == "DowJones30")
             {
                 destination = new CSVEquityIndexStore(
-                    GetTextWriterForSolutionFile("CSV/DowJones30.csv")
+                    GetTextWriterForFileInTree("CSV/DowJones30.csv")
                 );
             }
             else if (equityIndex == "SP500")
             {
                 destination = new CSVEquityIndexStore(
-                    GetTextWriterForSolutionFile("CSV/SP500.csv")
+                    GetTextWriterForFileInTree("CSV/SP500.csv")
                 );
             }
             else if (equityIndex == "Nifty100")
             {
                 destination = new CSVEquityIndexStore(
-                    GetTextWriterForSolutionFile("CSV/Nifty100.csv")
+                    GetTextWriterForFileInTree("CSV/Nifty100.csv")
                 );
             }
             return destination;
         }
-        private TextWriter GetTextWriterForSolutionFile(string relativePath)
+        private TextWriter GetTextWriterForFileInTree(string filename)
         {
-            var fullPath = Path.GetFullPath("../../../../../" + relativePath);
+            var parentDir = "../";
+            for (var baseDir = parentDir; Directory.Exists(baseDir); baseDir += parentDir)
+            {
+                var filePath = baseDir + filename;
+                if (File.Exists(filePath))
+                {
+                    return GetTextWriterForFile(filePath);
+                }
+            }
+            return null;
+        }
+        private TextWriter GetTextWriterForFile(string relativeFilePath)
+        {
+            var fullPath = Path.GetFullPath(relativeFilePath);
             TextWriter writer = File.CreateText(fullPath);
             return writer;
         }
