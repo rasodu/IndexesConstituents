@@ -11,20 +11,19 @@ namespace Rasodu.EquityIndexes
             "Nifty100",
         };
         EquityIndexSourceFactory _sourceFactory;
-        EquityIndexStoreFactory _storeFactory;
+        private EquityIndexesStorageSingleton _store;
         internal Updater()
         {
             _sourceFactory = new EquityIndexSourceFactory();
-            _storeFactory = new EquityIndexStoreFactory();
+            _store = EquityIndexesStorageSingleton.Instance;
         }
         internal void UpdateAll()
         {
             foreach (var equityIndex in _equityIndexes)
             {
                 var source = _sourceFactory.GetSource(equityIndex);
-                var store = _storeFactory.GetStore(equityIndex);
-                var equityIndexUpdater = new EquityIndexUpdater(source, store);
-                equityIndexUpdater.Update();
+                var equitiesInTheIndex = source.GetAllEquities();
+                _store.SetDataForIndex(equityIndex, equitiesInTheIndex);
             }
         }
     }
