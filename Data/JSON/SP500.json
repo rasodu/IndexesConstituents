@@ -1,0 +1,2022 @@
+[
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "AAL"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "AAPL"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "ADBE"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "ADI"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "ADP"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "ADSK"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "AKAM"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "ALGN"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "ALXN"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "AMAT"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "AMD"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "AMGN"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "AMZN"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "ANSS"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "ATVI"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "AVGO"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "BIIB"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "BKNG"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "CA"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "CBOE"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "CDNS"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "CELG"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "CERN"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "CHRW"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "CHTR"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "CINF"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "CMCSA"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "CME"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "COST"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "CSCO"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "CSX"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "CTAS"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "CTSH"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "CTXS"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "DISCA"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "DISCK"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "DISH"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "DLTR"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "EA"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "EBAY"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "EQIX"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "ESRX"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "ETFC"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "EXPD"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "EXPE"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "FAST"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "FB"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "FFIV"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "FISV"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "FITB"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "FLIR"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "FOX"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "FOXA"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "GILD"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "GOOG"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "GOOGL"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "GRMN"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "GT"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "HAS"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "HBAN"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "HOLX"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "HSIC"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "IDXX"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "ILMN"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "INCY"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "INFO"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "INTC"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "INTU"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "IPGP"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "ISRG"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "JBHT"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "KHC"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "KLAC"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "LKQ"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "LRCX"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "MAR"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "MAT"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "MCHP"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "MDLZ"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "MNST"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "MSFT"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "MU"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "MYL"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "NAVI"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "NCLH"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "NDAQ"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "NFLX"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "NKTR"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "NTAP"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "NTRS"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "NVDA"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "NWS"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "NWSA"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "ORLY"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "PAYX"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "PBCT"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "PCAR"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "PYPL"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "QCOM"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "QRVO"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "REGN"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "ROST"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "SBAC"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "SBUX"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "SIVB"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "SNPS"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "SRCL"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "STX"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "SWKS"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "SYMC"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "TRIP"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "TROW"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "TSCO"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "TTWO"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "TXN"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "ULTA"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "VIAB"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "VRSK"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "VRSN"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "VRTX"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "WBA"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "WDC"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "WLTW"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "WYNN"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "XLNX"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "XRAY"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "ZION"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "A"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "AAP"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "ABBV"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "ABC"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "ABT"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "ACN"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "ADM"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "ADS"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "AEE"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "AEP"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "AES"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "AET"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "AFL"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "AGN"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "AIG"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "AIV"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "AIZ"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "AJG"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "ALB"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "ALK"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "ALL"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "ALLE"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "AME"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "AMG"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "AMP"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "AMT"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "ANDV"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "ANTM"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "AON"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "AOS"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "APA"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "APC"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "APD"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "APH"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "APTV"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "ARE"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "ARNC"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "AVB"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "AVY"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "AWK"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "AXP"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "AYI"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "AZO"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "BA"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "BAC"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "BAX"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "BBT"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "BBY"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "BDX"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "BEN"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "BF.B"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "BHF"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "BHGE"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "BK"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "BLK"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "BLL"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "BMY"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "BRK.B"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "BSX"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "BWA"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "BXP"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "C"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "CAG"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "CAH"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "CAT"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "CB"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "CBRE"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "CBS"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "CCI"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "CCL"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "CF"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "CFG"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "CHD"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "CI"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "CL"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "CLX"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "CMA"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "CMG"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "CMI"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "CMS"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "CNC"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "CNP"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "COF"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "COG"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "COL"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "COO"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "COP"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "COTY"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "CPB"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "CRM"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "CTL"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "CVS"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "CVX"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "CXO"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "D"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "DAL"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "DE"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "DFS"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "DG"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "DGX"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "DHI"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "DHR"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "DIS"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "DLR"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "DOV"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "DPS"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "DRE"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "DRI"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "DTE"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "DUK"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "DVA"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "DVN"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "DWDP"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "DXC"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "ECL"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "ED"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "EFX"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "EIX"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "EL"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "EMN"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "EMR"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "EOG"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "EQR"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "EQT"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "ES"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "ESS"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "ETN"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "ETR"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "EVHC"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "EW"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "EXC"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "EXR"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "F"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "FBHS"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "FCX"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "FDX"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "FE"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "FIS"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "FL"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "FLR"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "FLS"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "FMC"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "FRT"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "FTI"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "FTV"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "GD"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "GE"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "GGP"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "GIS"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "GLW"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "GM"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "GPC"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "GPN"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "GPS"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "GS"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "GWW"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "HAL"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "HBI"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "HCA"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "HCP"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "HD"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "HES"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "HIG"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "HII"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "HLT"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "HOG"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "HON"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "HP"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "HPE"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "HPQ"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "HRB"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "HRL"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "HRS"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "HST"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "HSY"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "HUM"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "IBM"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "ICE"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "IFF"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "IP"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "IPG"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "IQV"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "IR"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "IRM"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "IT"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "ITW"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "IVZ"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "JCI"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "JEC"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "JNJ"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "JNPR"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "JPM"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "JWN"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "K"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "KEY"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "KIM"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "KMB"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "KMI"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "KMX"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "KO"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "KORS"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "KR"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "KSS"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "KSU"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "L"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "LB"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "LEG"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "LEN"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "LH"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "LLL"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "LLY"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "LMT"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "LNC"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "LNT"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "LOW"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "LUK"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "LUV"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "LYB"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "M"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "MA"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "MAA"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "MAC"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "MAS"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "MCD"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "MCK"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "MCO"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "MDT"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "MET"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "MGM"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "MHK"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "MKC"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "MLM"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "MMC"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "MMM"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "MO"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "MON"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "MOS"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "MPC"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "MRK"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "MRO"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "MS"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "MSCI"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "MSI"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "MTB"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "MTD"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "NBL"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "NEE"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "NEM"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "NFX"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "NI"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "NKE"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "NLSN"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "NOC"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "NOV"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "NRG"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "NSC"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "NUE"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "NWL"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "O"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "OKE"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "OMC"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "ORCL"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "OXY"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "PCG"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "PEG"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "PEP"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "PFE"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "PFG"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "PG"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "PGR"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "PH"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "PHM"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "PKG"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "PKI"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "PLD"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "PM"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "PNC"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "PNR"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "PNW"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "PPG"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "PPL"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "PRGO"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "PRU"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "PSA"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "PSX"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "PVH"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "PWR"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "PX"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "PXD"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "RCL"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "RE"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "REG"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "RF"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "RHI"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "RHT"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "RJF"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "RL"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "RMD"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "ROK"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "ROP"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "RRC"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "RSG"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "RTN"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "SCG"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "SCHW"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "SEE"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "SHW"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "SJM"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "SLB"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "SLG"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "SNA"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "SO"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "SPG"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "SPGI"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "SRE"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "STI"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "STT"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "STZ"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "SWK"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "SYF"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "SYK"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "SYY"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "T"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "TAP"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "TDG"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "TEL"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "TGT"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "TIF"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "TJX"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "TMK"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "TMO"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "TPR"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "TRV"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "TSN"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "TSS"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "TWX"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "TXT"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "UA"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "UAA"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "UAL"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "UDR"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "UHS"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "UNH"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "UNM"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "UNP"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "UPS"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "URI"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "USB"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "UTX"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "V"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "VAR"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "VFC"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "VLO"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "VMC"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "VNO"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "VTR"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "VZ"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "WAT"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "WEC"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "WELL"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "WFC"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "WHR"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "WM"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "WMB"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "WMT"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "WRK"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "WU"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "WY"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "WYN"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "XEC"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "XEL"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "XL"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "XOM"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "XRX"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "XYL"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "YUM"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "ZBH"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "ZTS"
+  }
+]

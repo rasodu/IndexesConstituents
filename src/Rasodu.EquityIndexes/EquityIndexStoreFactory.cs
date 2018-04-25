@@ -4,25 +4,48 @@ namespace Rasodu.EquityIndexes
 {
     internal class EquityIndexStoreFactory
     {
-        internal IEquityIndexStore GetStore(string equityIndex)
+        internal IEquityIndexStore GetCSVStore(string equityIndex)
         {
             IEquityIndexStore destination = null;
             if (equityIndex == "DowJones30")
             {
                 destination = new CSVEquityIndexStore(
-                    GetTextWriterForFileInTree("CSV/DowJones30.csv")
+                    GetTextWriterForFileInTree("Data/CSV/DowJones30.csv")
                 );
             }
             else if (equityIndex == "SP500")
             {
                 destination = new CSVEquityIndexStore(
-                    GetTextWriterForFileInTree("CSV/SP500.csv")
+                    GetTextWriterForFileInTree("Data/CSV/SP500.csv")
                 );
             }
             else if (equityIndex == "Nifty100")
             {
                 destination = new CSVEquityIndexStore(
-                    GetTextWriterForFileInTree("CSV/Nifty100.csv")
+                    GetTextWriterForFileInTree("Data/CSV/Nifty100.csv")
+                );
+            }
+            return destination;
+        }
+        internal IEquityIndexStore GetJSONStore(string equityIndex)
+        {
+            IEquityIndexStore destination = null;
+            if (equityIndex == "DowJones30")
+            {
+                destination = new JSONEquityIndexStore(
+                    GetTextWriterForFileInTree("Data/JSON/DowJones30.json")
+                );
+            }
+            else if (equityIndex == "SP500")
+            {
+                destination = new JSONEquityIndexStore(
+                    GetTextWriterForFileInTree("Data/JSON/SP500.json")
+                );
+            }
+            else if (equityIndex == "Nifty100")
+            {
+                destination = new JSONEquityIndexStore(
+                    GetTextWriterForFileInTree("Data/JSON/Nifty100.json")
                 );
             }
             return destination;

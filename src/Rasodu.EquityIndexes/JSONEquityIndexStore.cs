@@ -18,6 +18,7 @@ namespace Rasodu.EquityIndexes
             jsonWriter.Formatting = Formatting.Indented;
             var jsonSerializer = new JsonSerializer();
             jsonSerializer.Serialize(jsonWriter, equities);
+            jsonWriter.Flush();
         }
     }
 }

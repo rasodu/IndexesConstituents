@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Rasodu.EquityIndexes
+﻿namespace Rasodu.EquityIndexes
 {
     class EquityIndexesStorageDirector
     {
@@ -12,8 +8,10 @@ namespace Rasodu.EquityIndexes
             var storeFactory = new EquityIndexStoreFactory();
             foreach (var equityIndex in Updater.EquityIndexes)
             {
-                var store = storeFactory.GetStore(equityIndex);
-                storage.RegisterEquityIndexUpdatedIndex(equityIndex, new EquityIndexUpdated(store.ReplaceAll));
+                var csvStore = storeFactory.GetCSVStore(equityIndex);
+                var jsonStore = storeFactory.GetJSONStore(equityIndex);
+                storage.RegisterEquityIndexUpdatedIndex(equityIndex, new EquityIndexUpdated(csvStore.ReplaceAll));
+                storage.RegisterEquityIndexUpdatedIndex(equityIndex, new EquityIndexUpdated(jsonStore.ReplaceAll));
             }
             return storage;
         }
