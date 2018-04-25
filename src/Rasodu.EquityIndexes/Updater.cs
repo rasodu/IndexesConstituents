@@ -4,27 +4,26 @@ namespace Rasodu.EquityIndexes
 {
     internal class Updater
     {
-        private IList<string> _equityIndexes = new List<string>
+        public static IList<string> EquityIndexes = new List<string>
         {
             "DowJones30",
             "SP500",
             "Nifty100",
         };
         EquityIndexSourceFactory _sourceFactory;
-        EquityIndexStoreFactory _storeFactory;
+        private EquityIndexesStorageSingleton _store;
         internal Updater()
         {
             _sourceFactory = new EquityIndexSourceFactory();
-            _storeFactory = new EquityIndexStoreFactory();
+            _store = new EquityIndexesStorageDirector().GetEquityIndexesStorage();
         }
         internal void UpdateAll()
         {
-            foreach (var equityIndex in _equityIndexes)
+            foreach (var equityIndex in EquityIndexes)
             {
                 var source = _sourceFactory.GetSource(equityIndex);
-                var store = _storeFactory.GetStore(equityIndex);
-                var equityIndexUpdater = new EquityIndexUpdater(source, store);
-                equityIndexUpdater.Update();
+                var equitiesInTheIndex = source.GetAllEquities();
+                _store.SetDataForIndex(equityIndex, equitiesInTheIndex);
             }
         }
     }

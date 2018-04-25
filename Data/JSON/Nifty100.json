@@ -1,0 +1,406 @@
+[
+  {
+    "StockExchange": "NSE",
+    "Identifier": "ABB"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "ABCAPITAL"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "ACC"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "ADANIPORTS"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "AMBUJACEM"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "ASHOKLEY"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "ASIANPAINT"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "AUROPHARMA"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "AXISBANK"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "BAJAJ-AUTO"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "BAJAJFINSV"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "BAJFINANCE"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "BANKBARODA"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "BEL"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "BHARTIARTL"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "BHEL"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "BOSCHLTD"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "BPCL"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "BRITANNIA"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "CADILAHC"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "CIPLA"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "COALINDIA"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "COLPAL"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "CONCOR"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "CUMMINSIND"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "DABUR"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "DLF"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "DMART"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "DRREDDY"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "EICHERMOT"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "EMAMILTD"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "GAIL"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "GICRE"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "GODREJCP"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "GRASIM"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "HAVELLS"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "HCLTECH"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "HDFC"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "HDFCBANK"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "HEROMOTOCO"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "HINDALCO"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "HINDPETRO"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "HINDUNILVR"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "HINDZINC"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "IBULHSGFIN"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "ICICIBANK"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "ICICIPRULI"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "IDEA"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "INDIGO"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "INDUSINDBK"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "INFRATEL"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "INFY"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "IOC"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "ITC"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "JSWSTEEL"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "KOTAKBANK"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "L&TFH"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "LICHSGFIN"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "LT"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "LUPIN"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "M&M"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "MARICO"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "MARUTI"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "MCDOWELL-N"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "MOTHERSUMI"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "MRF"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "NHPC"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "NMDC"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "NTPC"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "OFSS"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "OIL"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "ONGC"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "PEL"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "PETRONET"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "PFC"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "PGHH"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "PIDILITIND"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "PNB"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "POWERGRID"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "RECLTD"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "RELIANCE"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "SAIL"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "SBILIFE"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "SBIN"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "SHREECEM"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "SIEMENS"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "SRTRANSFIN"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "SUNPHARMA"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "SUNTV"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "TATAMOTORS"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "TATAMTRDVR"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "TATASTEEL"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "TCS"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "TECHM"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "TITAN"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "ULTRACEMCO"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "UPL"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "VEDL"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "WIPRO"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "YESBANK"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "ZEEL"
+  }
+]
