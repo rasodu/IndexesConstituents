@@ -6,7 +6,7 @@ namespace Rasodu.EquityIndexes
     {
         static void Main(string[] args)
         {
-            var updater = new Updater();
+            var updater = new EquityIndexesUpdater();
             updater.UpdateAll();
         }
     }

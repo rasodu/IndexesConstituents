@@ -2,18 +2,24 @@
 {
     class EquityIndexesStorageDirector
     {
+        EquityIndexesStorageSingleton _storage;
+        EquityIndexDiskWriterFactory _storeFactory;
+        internal EquityIndexesStorageDirector()
+        {
+            _storage = EquityIndexesStorageSingleton.Instance;
+            _storeFactory = new EquityIndexDiskWriterFactory();
+        }
         internal EquityIndexesStorageSingleton GetEquityIndexesStorage()
         {
-            var storage = EquityIndexesStorageSingleton.Instance;
-            var storeFactory = new EquityIndexStoreFactory();
-            foreach (var equityIndex in Updater.EquityIndexes)
+            //register equity index update events
+            foreach (var equityIndex in EquityIndexesUpdater.EquityIndexes)
             {
-                var csvStore = storeFactory.GetCSVStore(equityIndex);
-                var jsonStore = storeFactory.GetJSONStore(equityIndex);
-                storage.RegisterEquityIndexUpdatedIndex(equityIndex, new EquityIndexUpdated(csvStore.ReplaceAll));
-                storage.RegisterEquityIndexUpdatedIndex(equityIndex, new EquityIndexUpdated(jsonStore.ReplaceAll));
+                var csvStore = _storeFactory.GetCSVDiskWriter(equityIndex);
+                var jsonStore = _storeFactory.GetJSONDiskWriter(equityIndex);
+                _storage.OnEquityIndexUpdated(equityIndex, new EquityIndexUpdated(csvStore.ReplaceAll));
+                _storage.OnEquityIndexUpdated(equityIndex, new EquityIndexUpdated(jsonStore.ReplaceAll));
             }
-            return storage;
+            return _storage;
         }
     }
 }

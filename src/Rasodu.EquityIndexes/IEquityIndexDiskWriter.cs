@@ -2,7 +2,7 @@
 
 namespace Rasodu.EquityIndexes
 {
-    interface IEquityIndexStore
+    interface IEquityIndexDiskWriter
     {
         void ReplaceAll(List<Equity> equities);
     }

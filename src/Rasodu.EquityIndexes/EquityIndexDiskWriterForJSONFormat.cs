@@ -4,10 +4,10 @@ using System.IO;
 
 namespace Rasodu.EquityIndexes
 {
-    class JSONEquityIndexStore : IEquityIndexStore
+    class EquityIndexDiskWriterForJSONFormat : IEquityIndexDiskWriter
     {
         private TextWriter _destination;
-        internal JSONEquityIndexStore(TextWriter destination)
+        internal EquityIndexDiskWriterForJSONFormat(TextWriter destination)
         {
             _destination = destination;
             _destination.NewLine = "\n";

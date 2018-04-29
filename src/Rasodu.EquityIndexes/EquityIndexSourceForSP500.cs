@@ -5,10 +5,10 @@ using System.Text.RegularExpressions;
 
 namespace Rasodu.EquityIndexes
 {
-    class DJ30EquityIndexSource : IEquityIndexSource
+    internal class EquityIndexSourceForSP500 : IEquityIndexSource
     {
         private TextReader _wikiPage;
-        public DJ30EquityIndexSource(TextReader wikiPage)
+        internal EquityIndexSourceForSP500(TextReader wikiPage)
         {
             _wikiPage = wikiPage;
         }
@@ -38,12 +38,12 @@ namespace Rasodu.EquityIndexes
                 if (m.Groups.Count == 2)
                 {
                     var cells = Regex.Matches(m.Groups[1].Value, cellPattern);
-                    if (cells.Count == 4)
+                    if (cells.Count >= 1)
                     {
                         var equity = new Equity
                         {
-                            StockExchange = cells[1].Groups[2].Value,
-                            Identifier = cells[2].Groups[2].Value,
+                            StockExchange = FindExchangeFromString(cells[0].Groups[1].Value),
+                            Identifier = cells[0].Groups[2].Value,
                         };
                         returnList.Add(equity);
                     }
@@ -51,6 +51,19 @@ namespace Rasodu.EquityIndexes
             }
             returnList.Sort();
             return returnList;
+        }
+        private string FindExchangeFromString(string str)
+        {
+            str = str.ToLower();
+            if (str.Contains("nyse"))
+            {
+                return "NYSE";
+            }
+            else if (str.Contains("nasdaq"))
+            {
+                return "NASDAQ";
+            }
+            return "UNKNOWN";
         }
     }
 }

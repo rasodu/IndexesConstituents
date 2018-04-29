@@ -4,7 +4,7 @@ using Xunit;
 
 namespace Rasodu.EquityIndexes.Test
 {
-    public class WikiSP500EquityIndexSourceTests
+    public class EquityIndexSourceForSP500Tests
     {
         [Fact]
         public void GetAllEquitiesTest()
@@ -47,7 +47,7 @@ more text here-->
 <--more text here
 ";
             TextReader reader = new StringReader(expextedWikipage);
-            IEquityIndexSource wiki = new SP500EquityIndexSource(reader);
+            IEquityIndexSource wiki = new EquityIndexSourceForSP500(reader);
             var expextedEquityList = new List<Equity>()
             {
                 new Equity

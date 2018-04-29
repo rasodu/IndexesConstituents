@@ -4,10 +4,10 @@ using System.IO;
 
 namespace Rasodu.EquityIndexes
 {
-    internal class CSVEquityIndexStore : IEquityIndexStore
+    internal class EquityIndexDiskWriterForCSVFormat : IEquityIndexDiskWriter
     {
         private TextWriter _destination;
-        internal CSVEquityIndexStore(TextWriter destination)
+        internal EquityIndexDiskWriterForCSVFormat(TextWriter destination)
         {
             _destination = destination;
             _destination.NewLine = "\n";

@@ -21,7 +21,7 @@ namespace Rasodu.EquityIndexes
         }
         internal IDictionary<string, IList<Equity>> equityIndexHt;
         internal IDictionary<string, EquityIndexUpdated> observers;
-        internal void RegisterEquityIndexUpdatedIndex(string equityIndexName, EquityIndexUpdated eventDelegate)
+        internal void OnEquityIndexUpdated(string equityIndexName, EquityIndexUpdated eventDelegate)
         {
             if (!observers.ContainsKey(equityIndexName))
             {

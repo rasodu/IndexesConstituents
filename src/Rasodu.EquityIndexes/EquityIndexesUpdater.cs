@@ -2,7 +2,7 @@
 
 namespace Rasodu.EquityIndexes
 {
-    internal class Updater
+    internal class EquityIndexesUpdater
     {
         public static IList<string> EquityIndexes = new List<string>
         {
@@ -12,7 +12,7 @@ namespace Rasodu.EquityIndexes
         };
         EquityIndexSourceFactory _sourceFactory;
         private EquityIndexesStorageSingleton _store;
-        internal Updater()
+        internal EquityIndexesUpdater()
         {
             _sourceFactory = new EquityIndexSourceFactory();
             _store = new EquityIndexesStorageDirector().GetEquityIndexesStorage();
@@ -21,7 +21,7 @@ namespace Rasodu.EquityIndexes
         {
             foreach (var equityIndex in EquityIndexes)
             {
-                var source = _sourceFactory.GetSource(equityIndex);
+                var source = _sourceFactory.GetEquityIndexSource(equityIndex);
                 var equitiesInTheIndex = source.GetAllEquities();
                 _store.SetDataForIndex(equityIndex, equitiesInTheIndex);
             }

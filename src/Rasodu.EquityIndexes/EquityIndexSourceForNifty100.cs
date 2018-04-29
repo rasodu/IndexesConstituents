@@ -12,10 +12,10 @@ namespace Rasodu.EquityIndexes
         public string Series { get; set; }
         public string ISINCode { get; set; }
     }
-    class Nifty100EquityIndexSource : IEquityIndexSource
+    class EquityIndexSourceForNifty100 : IEquityIndexSource
     {
         private TextReader _csvTextReader;
-        public Nifty100EquityIndexSource(TextReader csvTextReader)
+        public EquityIndexSourceForNifty100(TextReader csvTextReader)
         {
             _csvTextReader = csvTextReader;
             //var text = _csvTextReader.ReadToEnd();

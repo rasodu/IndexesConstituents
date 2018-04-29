@@ -6,7 +6,7 @@ using Xunit;
 
 namespace Rasodu.EquityIndexes.Test
 {
-    public class DJ30EquityIndexSourceTest
+    public class EquityIndexSourceForDJ30Test
     {
         [Fact]
         public void GetAllEquities()
@@ -43,7 +43,7 @@ more text here-->
 <--more text here
 ";
             TextReader reader = new StringReader(expextedWikipage);
-            IEquityIndexSource wiki = new DJ30EquityIndexSource(reader);
+            IEquityIndexSource wiki = new EquityIndexSourceForDJ30(reader);
             var expextedEquityList = new List<Equity>()
             {
                 new Equity
