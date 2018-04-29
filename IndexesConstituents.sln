@@ -4,9 +4,9 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{40C82C47-5328-4392-8027-70284087CFF1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rasodu.EquityIndexes", "src\Rasodu.EquityIndexes\Rasodu.EquityIndexes.csproj", "{B107757E-26D2-4673-BBED-E84646DCBE75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rasodu.IndexesConstituents.Updater", "src\Rasodu.IndexesConstituents.Updater\Rasodu.IndexesConstituents.Updater.csproj", "{B107757E-26D2-4673-BBED-E84646DCBE75}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rasodu.EquityIndexes.Test", "src\Rasodu.EquityIndexes.Test\Rasodu.EquityIndexes.Test.csproj", "{BE6FF464-3F11-45C9-BA97-72A6D9FB4A99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rasodu.IndexesConstituents.Updater.Test", "src\Rasodu.IndexesConstituents.Updater.Test\Rasodu.IndexesConstituents.Updater.Test.csproj", "{BE6FF464-3F11-45C9-BA97-72A6D9FB4A99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

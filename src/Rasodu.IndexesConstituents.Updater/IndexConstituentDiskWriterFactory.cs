@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace Rasodu.EquityIndexes
+namespace Rasodu.IndexesConstituents.Updater
 {
     internal class IndexConstituentDiskWriterFactory
     {

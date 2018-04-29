@@ -1,4 +1,4 @@
-﻿namespace Rasodu.EquityIndexes
+﻿namespace Rasodu.IndexesConstituents.Updater
 {
     class IndexesConstituentStorageDirector
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 
-namespace Rasodu.EquityIndexes
+namespace Rasodu.IndexesConstituents.Updater
 {
     class IndexConstituentDiskWriterForJSONFormat : IIndexConstituentDiskWriter
     {

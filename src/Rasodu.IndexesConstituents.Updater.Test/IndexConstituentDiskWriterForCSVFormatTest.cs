@@ -2,7 +2,7 @@
 using System.IO;
 using Xunit;
 
-namespace Rasodu.EquityIndexes.Test
+namespace Rasodu.IndexesConstituents.Updater.Test
 {
     public class IndexConstituentDiskWriterForCSVFormatTest
     {

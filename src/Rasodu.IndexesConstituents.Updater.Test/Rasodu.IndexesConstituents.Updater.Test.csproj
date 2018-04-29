@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Rasodu.EquityIndexes\Rasodu.EquityIndexes.csproj" />
+    <ProjectReference Include="..\Rasodu.IndexesConstituents.Updater\Rasodu.IndexesConstituents.Updater.csproj" />
   </ItemGroup>
 
 </Project>

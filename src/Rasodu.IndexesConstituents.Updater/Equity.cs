@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Rasodu.EquityIndexes
+namespace Rasodu.IndexesConstituents.Updater
 {
     public class Equity : IComparable<Equity>, IEquatable<Equity>
     {

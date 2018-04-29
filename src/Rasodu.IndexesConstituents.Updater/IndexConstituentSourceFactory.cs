@@ -2,7 +2,7 @@
 using System.IO;
 using System.Net.Http;
 
-namespace Rasodu.EquityIndexes
+namespace Rasodu.IndexesConstituents.Updater
 {
     internal class IndexConstituentSourceFactory
     {

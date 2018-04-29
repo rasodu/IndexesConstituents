@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/EquityIndexes.sln"
+                "${workspaceFolder}/IndexesConstituents.sln"
             ],
             "problemMatcher": "$msCompile"
         }

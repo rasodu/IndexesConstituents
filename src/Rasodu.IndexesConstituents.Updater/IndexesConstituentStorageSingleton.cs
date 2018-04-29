@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Rasodu.EquityIndexes
+namespace Rasodu.IndexesConstituents.Updater
 {
     internal delegate void EquityIndexUpdated(List<Equity> equities);
     internal sealed class IndexesConstituentStorageSingleton

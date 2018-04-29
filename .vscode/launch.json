@@ -5,13 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Equity Index Updater",
+            "name": "Indexes Constituents Updater",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/src/Rasodu.EquityIndexes/bin/Debug/netcoreapp2.0/Rasodu.EquityIndexes.dll",
+            "program": "${workspaceFolder}/src/Rasodu.IndexesConstituents.Updater/bin/Debug/netcoreapp2.0/Rasodu.IndexesConstituents.Updater.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/src/Rasodu.EquityIndexes",
+            "cwd": "${workspaceFolder}/src/Rasodu.IndexesConstituents.Updater",
             "console": "internalConsole",
             "stopAtEntry": false,
             "internalConsoleOptions": "openOnSessionStart"

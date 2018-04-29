@@ -4,7 +4,7 @@ using System.IO;
 using System.Text;
 using Xunit;
 
-namespace Rasodu.EquityIndexes.Test
+namespace Rasodu.IndexesConstituents.Updater.Test
 {
     public class IndexConstituentSourceForDJ30Test
     {

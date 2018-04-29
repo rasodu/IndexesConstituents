@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Rasodu.EquityIndexes
+namespace Rasodu.IndexesConstituents.Updater
 {
     interface IIndexConstituentSource
     {
