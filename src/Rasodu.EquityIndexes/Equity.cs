@@ -17,9 +17,7 @@ namespace Rasodu.EquityIndexes
         }
         public bool Equals(Equity other)
         {
-            return
-                StockExchange == other.StockExchange
-                && Identifier == other.Identifier;
+            return CompareTo(other) == 0;
         }
     }
 }
