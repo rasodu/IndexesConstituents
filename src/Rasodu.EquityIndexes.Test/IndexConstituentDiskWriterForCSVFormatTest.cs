@@ -4,7 +4,7 @@ using Xunit;
 
 namespace Rasodu.EquityIndexes.Test
 {
-    public class EquityIndexDiskWriterForCSVFormatTest
+    public class IndexConstituentDiskWriterForCSVFormatTest
     {
         [Fact]
         public void ReplaceAllTest()
@@ -25,7 +25,7 @@ namespace Rasodu.EquityIndexes.Test
                 }
             };
             TextWriter writer = new StringWriter();
-            var equityStore = new EquityIndexDiskWriterForCSVFormat(writer);
+            var equityStore = new IndexConstituentDiskWriterForCSVFormat(writer);
             //act
             equityStore.ReplaceAll(expectedEquityList);
             var actualCSVText = writer.ToString();

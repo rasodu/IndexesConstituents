@@ -2,7 +2,7 @@
 
 namespace Rasodu.EquityIndexes
 {
-    interface IEquityIndexSource
+    interface IIndexConstituentSource
     {
         List<Equity> GetAllEquities();
     }

@@ -4,32 +4,32 @@ using System.Net.Http;
 
 namespace Rasodu.EquityIndexes
 {
-    internal class EquityIndexSourceFactory
+    internal class IndexConstituentSourceFactory
     {
         private HttpClient _client;
-        public EquityIndexSourceFactory()
+        public IndexConstituentSourceFactory()
         {
             _client = new HttpClient();
             _client.DefaultRequestHeaders.Add("User-Agent", "curl/7.53.0");
         }
-        internal IEquityIndexSource GetEquityIndexSource(string equityIndex)
+        internal IIndexConstituentSource GetEquityIndexSource(string equityIndex)
         {
-            IEquityIndexSource source = null;
+            IIndexConstituentSource source = null;
             if (equityIndex == "DowJones30")
             {
-                source = new EquityIndexSourceForDJ30(
+                source = new IndexConstituentSourceForDJ30(
                     UrlToTextReader("https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average")
                 );
             }
             else if (equityIndex == "SP500")
             {
-                source = new EquityIndexSourceForSP500(
+                source = new IndexConstituentSourceForSP500(
                     UrlToTextReader("https://en.wikipedia.org/wiki/List_of_S%26P_500_companies")
                 );
             }
             else if (equityIndex == "Nifty100")
             {
-                source = new EquityIndexSourceForNifty100(
+                source = new IndexConstituentSourceForNifty100(
                     UrlToTextReader("https://www.nseindia.com/content/indices/ind_nifty100list.csv")
                 );
             }

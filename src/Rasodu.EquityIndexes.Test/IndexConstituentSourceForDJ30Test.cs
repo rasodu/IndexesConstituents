@@ -6,13 +6,13 @@ using Xunit;
 
 namespace Rasodu.EquityIndexes.Test
 {
-    public class EquityIndexSourceForDJ30Test
+    public class IndexConstituentSourceForDJ30Test
     {
         [Fact]
         public void GetAllEquities()
         {
             //arrange
-            var expextedWikipage = @"
+            var expectedWikipage = @"
 more text here-->
 <table class=""wikitable sortable"">
 <tr>
@@ -42,9 +42,9 @@ more text here-->
 </table>
 <--more text here
 ";
-            TextReader reader = new StringReader(expextedWikipage);
-            IEquityIndexSource wiki = new EquityIndexSourceForDJ30(reader);
-            var expextedEquityList = new List<Equity>()
+            TextReader reader = new StringReader(expectedWikipage);
+            IIndexConstituentSource wiki = new IndexConstituentSourceForDJ30(reader);
+            var expectedEquityList = new List<Equity>()
             {
                 new Equity
                 {
@@ -60,7 +60,7 @@ more text here-->
             //act
             var actualEquityList = wiki.GetAllEquities();
             //assert
-            Assert.Equal(expextedEquityList, actualEquityList);
+            Assert.Equal(expectedEquityList, actualEquityList);
         }
     }
 }

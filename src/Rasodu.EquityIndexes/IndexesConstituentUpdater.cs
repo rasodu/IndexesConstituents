@@ -2,7 +2,7 @@
 
 namespace Rasodu.EquityIndexes
 {
-    internal class EquityIndexesUpdater
+    internal class IndexesConstituentUpdater
     {
         public static IList<string> EquityIndexes = new List<string>
         {
@@ -10,12 +10,12 @@ namespace Rasodu.EquityIndexes
             "SP500",
             "Nifty100",
         };
-        EquityIndexSourceFactory _sourceFactory;
-        private EquityIndexesStorageSingleton _store;
-        internal EquityIndexesUpdater()
+        IndexConstituentSourceFactory _sourceFactory;
+        private IndexesConstituentStorageSingleton _store;
+        internal IndexesConstituentUpdater()
         {
-            _sourceFactory = new EquityIndexSourceFactory();
-            _store = new EquityIndexesStorageDirector().GetEquityIndexesStorage();
+            _sourceFactory = new IndexConstituentSourceFactory();
+            _store = new IndexesConstituentStorageDirector().GetEquityIndexesStorage();
         }
         internal void UpdateAll()
         {

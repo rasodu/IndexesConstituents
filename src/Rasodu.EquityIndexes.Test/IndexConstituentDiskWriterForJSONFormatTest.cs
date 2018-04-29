@@ -4,7 +4,7 @@ using Xunit;
 
 namespace Rasodu.EquityIndexes.Test
 {
-    public class EquityIndexDiskWriterForJSONFormatTest
+    public class IndexConstituentDiskWriterForJSONFormatTest
     {
         [Fact]
         public void ReplaceAllTest()
@@ -25,7 +25,7 @@ namespace Rasodu.EquityIndexes.Test
                 }
             };
             TextWriter writer = new StringWriter();
-            var equityStore = new EquityIndexDiskWriterForJSONFormat(writer);
+            var equityStore = new IndexConstituentDiskWriterForJSONFormat(writer);
             //act
             equityStore.ReplaceAll(equityList);
             var actualJSONText = writer.ToString();

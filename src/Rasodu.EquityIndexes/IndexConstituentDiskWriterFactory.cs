@@ -2,49 +2,49 @@
 
 namespace Rasodu.EquityIndexes
 {
-    internal class EquityIndexDiskWriterFactory
+    internal class IndexConstituentDiskWriterFactory
     {
-        internal IEquityIndexDiskWriter GetCSVDiskWriter(string equityIndex)
+        internal IIndexConstituentDiskWriter GetCSVDiskWriter(string equityIndex)
         {
-            IEquityIndexDiskWriter destination = null;
+            IIndexConstituentDiskWriter destination = null;
             if (equityIndex == "DowJones30")
             {
-                destination = new EquityIndexDiskWriterForCSVFormat(
+                destination = new IndexConstituentDiskWriterForCSVFormat(
                     GetTextWriterForExistingFileInTree("Data/CSV/DowJones30.csv")
                 );
             }
             else if (equityIndex == "SP500")
             {
-                destination = new EquityIndexDiskWriterForCSVFormat(
+                destination = new IndexConstituentDiskWriterForCSVFormat(
                     GetTextWriterForExistingFileInTree("Data/CSV/SP500.csv")
                 );
             }
             else if (equityIndex == "Nifty100")
             {
-                destination = new EquityIndexDiskWriterForCSVFormat(
+                destination = new IndexConstituentDiskWriterForCSVFormat(
                     GetTextWriterForExistingFileInTree("Data/CSV/Nifty100.csv")
                 );
             }
             return destination;
         }
-        internal IEquityIndexDiskWriter GetJSONDiskWriter(string equityIndex)
+        internal IIndexConstituentDiskWriter GetJSONDiskWriter(string equityIndex)
         {
-            IEquityIndexDiskWriter destination = null;
+            IIndexConstituentDiskWriter destination = null;
             if (equityIndex == "DowJones30")
             {
-                destination = new EquityIndexDiskWriterForJSONFormat(
+                destination = new IndexConstituentDiskWriterForJSONFormat(
                     GetTextWriterForExistingFileInTree("Data/JSON/DowJones30.json")
                 );
             }
             else if (equityIndex == "SP500")
             {
-                destination = new EquityIndexDiskWriterForJSONFormat(
+                destination = new IndexConstituentDiskWriterForJSONFormat(
                     GetTextWriterForExistingFileInTree("Data/JSON/SP500.json")
                 );
             }
             else if (equityIndex == "Nifty100")
             {
-                destination = new EquityIndexDiskWriterForJSONFormat(
+                destination = new IndexConstituentDiskWriterForJSONFormat(
                     GetTextWriterForExistingFileInTree("Data/JSON/Nifty100.json")
                 );
             }

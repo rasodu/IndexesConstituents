@@ -4,13 +4,13 @@ using Xunit;
 
 namespace Rasodu.EquityIndexes.Test
 {
-    public class EquityIndexSourceForSP500Tests
+    public class IndexConstituentSourceForSP500Tests
     {
         [Fact]
         public void GetAllEquitiesTest()
         {
             //arrange
-            var expextedWikipage = @"
+            var expectedWikipage = @"
 more text here-->
 <table class=""wikitable sortable"">
 <tr>
@@ -46,9 +46,9 @@ more text here-->
 </table>
 <--more text here
 ";
-            TextReader reader = new StringReader(expextedWikipage);
-            IEquityIndexSource wiki = new EquityIndexSourceForSP500(reader);
-            var expextedEquityList = new List<Equity>()
+            TextReader reader = new StringReader(expectedWikipage);
+            IIndexConstituentSource wiki = new IndexConstituentSourceForSP500(reader);
+            var expectedEquityList = new List<Equity>()
             {
                 new Equity
                 {
@@ -64,7 +64,7 @@ more text here-->
             //act
             var actualEquityList = wiki.GetAllEquities();
             //assert
-            Assert.Equal(expextedEquityList, actualEquityList);
+            Assert.Equal(expectedEquityList, actualEquityList);
         }
     }
 }

@@ -4,7 +4,7 @@ using Xunit;
 
 namespace Rasodu.EquityIndexes.Test
 {
-    public class EquityIndexSourceForNifty100Test
+    public class IndexConstituentSourceForNifty100Test
     {
         [Fact]
         public void GetAllEquitiesTest()
@@ -29,7 +29,7 @@ ACC Ltd.,CEMENT & CEMENT PRODUCTS,ACC,EQ,INE012A01025
 ABB India Ltd.,INDUSTRIAL MANUFACTURING,ABB,EQ,INE117A01022
 ";
             TextReader csvTextReader = new StringReader(csvContent);
-            var nify100Source = new EquityIndexSourceForNifty100(csvTextReader);
+            var nify100Source = new IndexConstituentSourceForNifty100(csvTextReader);
             //act
             var actualEquityList = nify100Source.GetAllEquities();
             //assert
