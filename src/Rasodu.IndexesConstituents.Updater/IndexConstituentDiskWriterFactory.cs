@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 
 namespace Rasodu.IndexesConstituents.Updater
 {
@@ -6,59 +7,28 @@ namespace Rasodu.IndexesConstituents.Updater
     {
         internal IIndexConstituentDiskWriter GetCSVDiskWriter(string equityIndex)
         {
-            IIndexConstituentDiskWriter destination = null;
-            if (equityIndex == "DowJones30")
-            {
-                destination = new IndexConstituentDiskWriterForCSVFormat(
-                    GetTextWriterForExistingFileInTree("Data/CSV/DowJones30.csv")
-                );
-            }
-            else if (equityIndex == "SP500")
-            {
-                destination = new IndexConstituentDiskWriterForCSVFormat(
-                    GetTextWriterForExistingFileInTree("Data/CSV/SP500.csv")
-                );
-            }
-            else if (equityIndex == "Nifty100")
-            {
-                destination = new IndexConstituentDiskWriterForCSVFormat(
-                    GetTextWriterForExistingFileInTree("Data/CSV/Nifty100.csv")
-                );
-            }
-            return destination;
+            if (equityIndex == null) throw new ArgumentNullException(nameof(equityIndex) + " can't be null.");
+            var textWriter = GetTextWriterForExistingFileInTree("CSV/" + equityIndex + ".csv");
+            var csvDiskWriter = new IndexConstituentDiskWriterForCSVFormat(textWriter);
+            return csvDiskWriter;
         }
         internal IIndexConstituentDiskWriter GetJSONDiskWriter(string equityIndex)
         {
-            IIndexConstituentDiskWriter destination = null;
-            if (equityIndex == "DowJones30")
-            {
-                destination = new IndexConstituentDiskWriterForJSONFormat(
-                    GetTextWriterForExistingFileInTree("Data/JSON/DowJones30.json")
-                );
-            }
-            else if (equityIndex == "SP500")
-            {
-                destination = new IndexConstituentDiskWriterForJSONFormat(
-                    GetTextWriterForExistingFileInTree("Data/JSON/SP500.json")
-                );
-            }
-            else if (equityIndex == "Nifty100")
-            {
-                destination = new IndexConstituentDiskWriterForJSONFormat(
-                    GetTextWriterForExistingFileInTree("Data/JSON/Nifty100.json")
-                );
-            }
-            return destination;
+            if (equityIndex == null) throw new ArgumentNullException(nameof(equityIndex) + " can't be null.");
+            var textWriter = GetTextWriterForExistingFileInTree("JSON/" + equityIndex + ".json");
+            var jsonDiskWriter = new IndexConstituentDiskWriterForJSONFormat(textWriter);
+            return jsonDiskWriter;
         }
         private TextWriter GetTextWriterForExistingFileInTree(string fileName)
         {
             var parentDir = "../";
             for (var baseDir = parentDir; Directory.Exists(baseDir); baseDir += parentDir)
             {
-                var filePath = baseDir + fileName;
-                if (File.Exists(filePath))
+                var dataDir = baseDir + "Data/";
+                if (File.Exists(dataDir + "README.md"))
                 {
-                    return GetTextWriterForFile(filePath);
+                    var destinationFile = dataDir + fileName;
+                    return GetTextWriterForFile(destinationFile);
                 }
             }
             return null;
