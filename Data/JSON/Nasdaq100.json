@@ -1,0 +1,414 @@
+[
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "AAL"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "AAPL"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "ADBE"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "ADI"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "ADP"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "ADSK"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "ALGN"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "ALXN"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "AMAT"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "AMGN"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "AMZN"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "ASML"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "ATVI"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "AVGO"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "BIDU"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "BIIB"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "BKNG"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "BMRN"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "CA"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "CDNS"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "CELG"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "CERN"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "CHKP"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "CHTR"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "CMCSA"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "COST"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "CSCO"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "CSX"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "CTAS"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "CTRP"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "CTSH"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "CTXS"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "DISH"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "DLTR"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "EA"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "EBAY"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "ESRX"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "EXPE"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "FAST"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "FB"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "FISV"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "FOX"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "FOXA"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "GILD"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "GOOG"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "GOOGL"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "HAS"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "HOLX"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "HSIC"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "IDXX"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "ILMN"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "INCY"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "INTC"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "INTU"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "ISRG"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "JBHT"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "JD"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "KHC"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "KLAC"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "LBTYA"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "LBTYK"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "LRCX"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "MAR"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "MCHP"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "MDLZ"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "MELI"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "MNST"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "MSFT"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "MU"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "MXIM"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "MYL"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "NFLX"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "NTES"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "NVDA"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "ORLY"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "PAYX"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "PCAR"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "PYPL"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "QCOM"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "QRTEA"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "REGN"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "ROST"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "SBUX"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "SHPG"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "SIRI"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "SNPS"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "STX"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "SWKS"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "SYMC"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "TMUS"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "TSLA"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "TTWO"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "TXN"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "ULTA"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "VOD"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "VRSK"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "VRTX"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "WBA"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "WDAY"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "WDC"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "WYNN"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "XLNX"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "XRAY"
+  }
+]
