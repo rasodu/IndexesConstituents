@@ -3,20 +3,20 @@ using System.IO;
 
 namespace Rasodu.IndexesConstituents.Updater
 {
-    internal class IndexConstituentDiskWriterFactory
+    internal class IndexConstituentsDiskWriterFactory
     {
-        internal IIndexConstituentDiskWriter GetCSVDiskWriter(string equityIndex)
+        internal IIndexConstituentsDiskWriter GetCSVDiskWriter(string equityIndex)
         {
             if (equityIndex == null) throw new ArgumentNullException(nameof(equityIndex) + " can't be null.");
             var textWriter = GetTextWriterForExistingFileInTree("CSV/" + equityIndex + ".csv");
-            var csvDiskWriter = new IndexConstituentDiskWriterForCSVFormat(textWriter);
+            var csvDiskWriter = new IndexConstituentsDiskWriterForCSVFormat(textWriter);
             return csvDiskWriter;
         }
-        internal IIndexConstituentDiskWriter GetJSONDiskWriter(string equityIndex)
+        internal IIndexConstituentsDiskWriter GetJSONDiskWriter(string equityIndex)
         {
             if (equityIndex == null) throw new ArgumentNullException(nameof(equityIndex) + " can't be null.");
             var textWriter = GetTextWriterForExistingFileInTree("JSON/" + equityIndex + ".json");
-            var jsonDiskWriter = new IndexConstituentDiskWriterForJSONFormat(textWriter);
+            var jsonDiskWriter = new IndexConstituentsDiskWriterForJSONFormat(textWriter);
             return jsonDiskWriter;
         }
         private TextWriter GetTextWriterForExistingFileInTree(string fileName)

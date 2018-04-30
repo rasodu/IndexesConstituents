@@ -2,7 +2,7 @@
 
 namespace Rasodu.IndexesConstituents.Updater
 {
-    interface IIndexConstituentDiskWriter
+    interface IIndexConstituentsDiskWriter
     {
         void ReplaceAll(List<Equity> equities);
     }

@@ -4,15 +4,15 @@ using System.Collections.Generic;
 namespace Rasodu.IndexesConstituents.Updater
 {
     internal delegate void EquityIndexUpdated(List<Equity> equities);
-    internal sealed class IndexesConstituentStorageSingleton
+    internal sealed class IndexesConstituentsStorageSingleton
     {
-        private IndexesConstituentStorageSingleton()
+        private IndexesConstituentsStorageSingleton()
         {
             equityIndexHt = new Dictionary<string, IList<Equity>>();
             observers = new Dictionary<string, EquityIndexUpdated>();
         }
-        private static readonly Lazy<IndexesConstituentStorageSingleton> _lazy = new Lazy<IndexesConstituentStorageSingleton>(() => new IndexesConstituentStorageSingleton());
-        internal static IndexesConstituentStorageSingleton Instance
+        private static readonly Lazy<IndexesConstituentsStorageSingleton> _lazy = new Lazy<IndexesConstituentsStorageSingleton>(() => new IndexesConstituentsStorageSingleton());
+        internal static IndexesConstituentsStorageSingleton Instance
         {
             get
             {

@@ -4,14 +4,14 @@ using Xunit;
 
 namespace Rasodu.IndexesConstituents.Updater.Test
 {
-    public class IndexConstituentDiskWriterForJSONFormatTest
+    public class IndexConstituentsDiskWriterForCSVFormatTest
     {
         [Fact]
         public void ReplaceAllTest()
         {
             //arrange
-            var expectedJSONText = "[\n  {\n    \"StockExchange\": \"NYSE\",\n    \"Identifier\": \"AXP\"\n  },\n  {\n    \"StockExchange\": \"NYSE\",\n    \"Identifier\": \"MMM\"\n  }\n]";
-            var equityList = new List<Equity>()
+            var expectedCSVText = "StockExchange,Identifier\nNYSE,AXP\nNYSE,MMM\n";
+            var IndexConstituents = new List<Equity>()
             {
                 new Equity
                 {
@@ -25,12 +25,12 @@ namespace Rasodu.IndexesConstituents.Updater.Test
                 }
             };
             TextWriter writer = new StringWriter();
-            var equityStore = new IndexConstituentDiskWriterForJSONFormat(writer);
+            var equityStore = new IndexConstituentsDiskWriterForCSVFormat(writer);
             //act
-            equityStore.ReplaceAll(equityList);
-            var actualJSONText = writer.ToString();
+            equityStore.ReplaceAll(IndexConstituents);
+            var actualCSVText = writer.ToString();
             //assert
-            Assert.Equal(expectedJSONText, actualJSONText);
+            Assert.Equal(expectedCSVText, actualCSVText);
         }
     }
 }

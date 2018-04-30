@@ -12,14 +12,14 @@ namespace Rasodu.IndexesConstituents.Updater
         public string Series { get; set; }
         public string ISINCode { get; set; }
     }
-    public class IndexConstituentSourceForNifty100 : IIndexConstituentSource
+    public class IndexConstituentsSourceForNifty100 : IIndexConstituentsSource
     {
         private TextReader _csvTextReader;
-        public IndexConstituentSourceForNifty100()
+        public IndexConstituentsSourceForNifty100()
         {
             _csvTextReader = Helper.UrlToTextReader("https://www.nseindia.com/content/indices/ind_nifty100list.csv");
         }
-        public IndexConstituentSourceForNifty100(TextReader csvTextReader)
+        public IndexConstituentsSourceForNifty100(TextReader csvTextReader)
         {
             _csvTextReader = csvTextReader;
         }

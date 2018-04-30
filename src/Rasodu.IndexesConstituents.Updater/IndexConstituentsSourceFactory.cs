@@ -3,19 +3,19 @@ using System.Collections.Generic;
 
 namespace Rasodu.IndexesConstituents.Updater
 {
-    internal class IndexConstituentSourceFactory
+    internal class IndexConstituentsSourceFactory
     {
         private IDictionary<string, Type> _sourceClasses;
-        internal IndexConstituentSourceFactory()
+        internal IndexConstituentsSourceFactory()
         {
             _sourceClasses = new Helper().GetAllSourceClasses();
         }
-        internal IIndexConstituentSource GetEquityIndexSource(string equityIndex)
+        internal IIndexConstituentsSource GetEquityIndexSource(string equityIndex)
         {
             if (equityIndex == null || !_sourceClasses.ContainsKey(equityIndex)) throw new ArgumentException(nameof(equityIndex) + " value is incorrect.");
             var sourceType = _sourceClasses[equityIndex];
             var constructor = sourceType.GetConstructor(Type.EmptyTypes);
-            var instance = (IIndexConstituentSource)constructor.Invoke(new object[] { });
+            var instance = (IIndexConstituentsSource)constructor.Invoke(new object[] { });
             return instance;
         }
     }

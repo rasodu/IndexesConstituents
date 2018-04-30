@@ -3,18 +3,18 @@ using System.Collections.Generic;
 
 namespace Rasodu.IndexesConstituents.Updater
 {
-    class IndexesConstituentStorageDirector
+    class IndexesConstituentsStorageDirector
     {
         private IDictionary<string, Type> _sourceClasses;
-        IndexesConstituentStorageSingleton _storage;
-        IndexConstituentDiskWriterFactory _storeFactory;
-        internal IndexesConstituentStorageDirector()
+        IndexesConstituentsStorageSingleton _storage;
+        IndexConstituentsDiskWriterFactory _storeFactory;
+        internal IndexesConstituentsStorageDirector()
         {
             _sourceClasses = new Helper().GetAllSourceClasses();
-            _storage = IndexesConstituentStorageSingleton.Instance;
-            _storeFactory = new IndexConstituentDiskWriterFactory();
+            _storage = IndexesConstituentsStorageSingleton.Instance;
+            _storeFactory = new IndexConstituentsDiskWriterFactory();
         }
-        internal IndexesConstituentStorageSingleton GetEquityIndexesStorage()
+        internal IndexesConstituentsStorageSingleton GetEquityIndexesStorage()
         {
             //register equity index disk writer event
             foreach (var sourceClass in _sourceClasses)

@@ -5,14 +5,14 @@ using System.Text.RegularExpressions;
 
 namespace Rasodu.IndexesConstituents.Updater
 {
-    public class IndexConstituentSourceForSP500 : IIndexConstituentSource
+    public class IndexConstituentsSourceForSP500 : IIndexConstituentsSource
     {
         private TextReader _wikiPage;
-        public IndexConstituentSourceForSP500()
+        public IndexConstituentsSourceForSP500()
         {
             _wikiPage = Helper.UrlToTextReader("https://en.wikipedia.org/wiki/List_of_S%26P_500_companies");
         }
-        internal IndexConstituentSourceForSP500(TextReader wikiPage)
+        internal IndexConstituentsSourceForSP500(TextReader wikiPage)
         {
             _wikiPage = wikiPage;
         }

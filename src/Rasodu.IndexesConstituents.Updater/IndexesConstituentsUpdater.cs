@@ -3,16 +3,16 @@ using System.Collections.Generic;
 
 namespace Rasodu.IndexesConstituents.Updater
 {
-    internal class IndexesConstituentUpdater
+    internal class IndexesConstituentsUpdater
     {
         private IDictionary<string, Type> _sourceClasses;
-        IndexConstituentSourceFactory _sourceFactory;
-        private IndexesConstituentStorageSingleton _store;
-        internal IndexesConstituentUpdater()
+        IndexConstituentsSourceFactory _sourceFactory;
+        private IndexesConstituentsStorageSingleton _store;
+        internal IndexesConstituentsUpdater()
         {
             _sourceClasses = new Helper().GetAllSourceClasses();
-            _sourceFactory = new IndexConstituentSourceFactory();
-            _store = new IndexesConstituentStorageDirector().GetEquityIndexesStorage();
+            _sourceFactory = new IndexConstituentsSourceFactory();
+            _store = new IndexesConstituentsStorageDirector().GetEquityIndexesStorage();
         }
         internal void UpdateAll()
         {

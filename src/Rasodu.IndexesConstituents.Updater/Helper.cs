@@ -44,7 +44,7 @@ namespace Rasodu.IndexesConstituents.Updater
                 var sourceInterfaceImplemented = false;
                 foreach (var inter in type.ImplementedInterfaces)
                 {
-                    if (inter == typeof(IIndexConstituentSource))
+                    if (inter == typeof(IIndexConstituentsSource))
                     {
                         sourceInterfaceImplemented = true;
                         break;
@@ -53,7 +53,7 @@ namespace Rasodu.IndexesConstituents.Updater
                 if (sourceInterfaceImplemented)
                 {
                     var constructor = type.GetConstructor(Type.EmptyTypes);
-                    var instance = (IIndexConstituentSource)constructor.Invoke(new object[] { });
+                    var instance = (IIndexConstituentsSource)constructor.Invoke(new object[] { });
                     sourcesDictionary[instance.IndexName()] = type;
                 }
             }

@@ -4,10 +4,10 @@ using System.IO;
 
 namespace Rasodu.IndexesConstituents.Updater
 {
-    class IndexConstituentDiskWriterForJSONFormat : IIndexConstituentDiskWriter
+    class IndexConstituentsDiskWriterForJSONFormat : IIndexConstituentsDiskWriter
     {
         private TextWriter _destination;
-        internal IndexConstituentDiskWriterForJSONFormat(TextWriter destination)
+        internal IndexConstituentsDiskWriterForJSONFormat(TextWriter destination)
         {
             _destination = destination;
             _destination.NewLine = "\n";

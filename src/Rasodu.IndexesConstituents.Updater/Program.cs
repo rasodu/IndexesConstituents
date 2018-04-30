@@ -6,7 +6,7 @@ namespace Rasodu.IndexesConstituents.Updater
     {
         static void Main(string[] args)
         {
-            var updater = new IndexesConstituentUpdater();
+            var updater = new IndexesConstituentsUpdater();
             updater.UpdateAll();
         }
     }

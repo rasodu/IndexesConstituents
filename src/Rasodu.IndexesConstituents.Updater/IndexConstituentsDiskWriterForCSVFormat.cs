@@ -4,10 +4,10 @@ using System.IO;
 
 namespace Rasodu.IndexesConstituents.Updater
 {
-    internal class IndexConstituentDiskWriterForCSVFormat : IIndexConstituentDiskWriter
+    internal class IndexConstituentsDiskWriterForCSVFormat : IIndexConstituentsDiskWriter
     {
         private TextWriter _destination;
-        internal IndexConstituentDiskWriterForCSVFormat(TextWriter destination)
+        internal IndexConstituentsDiskWriterForCSVFormat(TextWriter destination)
         {
             _destination = destination;
             _destination.NewLine = "\n";

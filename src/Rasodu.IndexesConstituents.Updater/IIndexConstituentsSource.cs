@@ -2,7 +2,7 @@
 
 namespace Rasodu.IndexesConstituents.Updater
 {
-    interface IIndexConstituentSource
+    interface IIndexConstituentsSource
     {
         string IndexName();
         List<Equity> GetAllEquities();

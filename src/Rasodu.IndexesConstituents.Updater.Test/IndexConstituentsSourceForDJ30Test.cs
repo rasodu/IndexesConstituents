@@ -6,7 +6,7 @@ using Xunit;
 
 namespace Rasodu.IndexesConstituents.Updater.Test
 {
-    public class IndexConstituentSourceForDJ30Test
+    public class IndexConstituentsSourceForDJ30Test
     {
         [Fact]
         public void GetAllEquities()
@@ -43,8 +43,8 @@ more text here-->
 <--more text here
 ";
             TextReader reader = new StringReader(expectedWikipage);
-            IIndexConstituentSource wiki = new IndexConstituentSourceForDJ30(reader);
-            var expectedEquityList = new List<Equity>()
+            IIndexConstituentsSource wiki = new IndexConstituentsSourceForDJ30(reader);
+            var expectedConstituents = new List<Equity>()
             {
                 new Equity
                 {
@@ -60,7 +60,7 @@ more text here-->
             //act
             var actualEquityList = wiki.GetAllEquities();
             //assert
-            Assert.Equal(expectedEquityList, actualEquityList);
+            Assert.Equal(expectedConstituents, actualEquityList);
         }
     }
 }

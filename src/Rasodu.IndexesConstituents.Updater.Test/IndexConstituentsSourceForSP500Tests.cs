@@ -4,7 +4,7 @@ using Xunit;
 
 namespace Rasodu.IndexesConstituents.Updater.Test
 {
-    public class IndexConstituentSourceForSP500Tests
+    public class IndexConstituentsSourceForSP500Tests
     {
         [Fact]
         public void GetAllEquitiesTest()
@@ -47,8 +47,8 @@ more text here-->
 <--more text here
 ";
             TextReader reader = new StringReader(expectedWikipage);
-            IIndexConstituentSource wiki = new IndexConstituentSourceForSP500(reader);
-            var expectedEquityList = new List<Equity>()
+            IIndexConstituentsSource wiki = new IndexConstituentsSourceForSP500(reader);
+            var expectedConstituents = new List<Equity>()
             {
                 new Equity
                 {
@@ -64,7 +64,7 @@ more text here-->
             //act
             var actualEquityList = wiki.GetAllEquities();
             //assert
-            Assert.Equal(expectedEquityList, actualEquityList);
+            Assert.Equal(expectedConstituents, actualEquityList);
         }
     }
 }
