@@ -5,12 +5,21 @@ using System.Text.RegularExpressions;
 
 namespace Rasodu.IndexesConstituents.Updater
 {
-    class IndexConstituentSourceForDJ30 : IIndexConstituentSource
+    public class IndexConstituentSourceForDJ30 : IIndexConstituentSource
     {
         private TextReader _wikiPage;
+
+        public IndexConstituentSourceForDJ30()
+        {
+            _wikiPage = Helper.UrlToTextReader("https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average");
+        }
         public IndexConstituentSourceForDJ30(TextReader wikiPage)
         {
             _wikiPage = wikiPage;
+        }
+        public string IndexName()
+        {
+            return "DowJones30";
         }
         public List<Equity> GetAllEquities()
         {

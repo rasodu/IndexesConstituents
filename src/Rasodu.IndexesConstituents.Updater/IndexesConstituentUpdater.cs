@@ -1,29 +1,26 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace Rasodu.IndexesConstituents.Updater
 {
     internal class IndexesConstituentUpdater
     {
-        public static IList<string> EquityIndexes = new List<string>
-        {
-            "DowJones30",
-            "SP500",
-            "Nifty100",
-        };
+        private IDictionary<string, Type> _sourceClasses;
         IndexConstituentSourceFactory _sourceFactory;
         private IndexesConstituentStorageSingleton _store;
         internal IndexesConstituentUpdater()
         {
+            _sourceClasses = new Helper().GetAllSourceClasses();
             _sourceFactory = new IndexConstituentSourceFactory();
             _store = new IndexesConstituentStorageDirector().GetEquityIndexesStorage();
         }
         internal void UpdateAll()
         {
-            foreach (var equityIndex in EquityIndexes)
+            foreach (var sourceClass in _sourceClasses)
             {
-                var source = _sourceFactory.GetEquityIndexSource(equityIndex);
+                var source = _sourceFactory.GetEquityIndexSource(sourceClass.Key);
                 var equitiesInTheIndex = source.GetAllEquities();
-                _store.SetDataForIndex(equityIndex, equitiesInTheIndex);
+                _store.SetDataForIndex(sourceClass.Key, equitiesInTheIndex);
             }
         }
     }

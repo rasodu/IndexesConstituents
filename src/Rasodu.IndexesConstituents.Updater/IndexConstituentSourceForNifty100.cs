@@ -12,13 +12,20 @@ namespace Rasodu.IndexesConstituents.Updater
         public string Series { get; set; }
         public string ISINCode { get; set; }
     }
-    class IndexConstituentSourceForNifty100 : IIndexConstituentSource
+    public class IndexConstituentSourceForNifty100 : IIndexConstituentSource
     {
         private TextReader _csvTextReader;
+        public IndexConstituentSourceForNifty100()
+        {
+            _csvTextReader = Helper.UrlToTextReader("https://www.nseindia.com/content/indices/ind_nifty100list.csv");
+        }
         public IndexConstituentSourceForNifty100(TextReader csvTextReader)
         {
             _csvTextReader = csvTextReader;
-            //var text = _csvTextReader.ReadToEnd();
+        }
+        public string IndexName()
+        {
+            return "Nifty100";
         }
         public List<Equity> GetAllEquities()
         {
