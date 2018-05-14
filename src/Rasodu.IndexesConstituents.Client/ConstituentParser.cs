@@ -7,7 +7,7 @@ namespace Rasodu.IndexesConstituents.Client
 {
     internal class ConstituentParser
     {
-        internal IEnumerable<Constituent> ParseConstituent(string json)
+        virtual internal IEnumerable<Constituent> ParseConstituent(string json)
         {
             IEnumerable<Constituent> result;
             try
