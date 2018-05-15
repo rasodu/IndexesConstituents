@@ -17,6 +17,18 @@
             "internalConsoleOptions": "openOnSessionStart"
         },
         {
+            "name": "Sample - PrintDowJones30",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/samples/PrintDowJones30/bin/Debug/netcoreapp2.1/PrintDowJones30.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/samples/PrintDowJones30",
+            "console": "internalConsole",
+            "stopAtEntry": false,
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
             "name": ".NET Core Attach",
             "type": "coreclr",
             "request": "attach",

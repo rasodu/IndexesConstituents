@@ -1,6 +1,17 @@
-# Equity Indexes
+# C# Client
 
-List of stocks in some well known indexes. Data is collected from following source.
+You can use our C# client to read index constituents in your project.
+```
+async static Task<IEnumerable<Constituent>> GetConstituents()
+{
+    var client = new IndexesConstituentsClient();
+    return await client.GetConstituents(StockExchange.DowJones30);
+}
+```
+
+# Indexes Updater
+
+This project aggregates indexes information from various sources. Updated data is stored in 'Data' directory. Data is collected from following source.
 
 | Equity Index | Source |
 | --- | --- |
@@ -9,8 +20,10 @@ List of stocks in some well known indexes. Data is collected from following sour
 | Nasdaq 100 | https://www.nasdaq.com/quotes/nasdaq-100-stocks.aspx |
 | Nifty 100 | https://www.nseindia.com/products/content/equities/indices/nifty_100.htm |
 
+# FAQ
+
 ### Where can I find data?
-List of stocks are available in CSV and JSON format. Files are in "Data" subdirectory of the repository.
+List of stocks are available in CSV and JSON format. Files are in "Data" subdirectory of the repository. If you are C# developer, then you can use our C Sharp client to pull information.
 
 ### Index I am looking for is not available...
 You can add scanner for the index and create a pull request. We will be happy to accept your contribution. However you must follow two guidelines listed below:
