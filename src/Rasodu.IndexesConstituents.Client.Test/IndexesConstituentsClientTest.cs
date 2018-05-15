@@ -19,7 +19,7 @@ namespace Rasodu.IndexesConstituents.Client.Test
                 },
             };
             var json = "Sample json response";
-            var expectedUriString = "https://github.com/rasodu/IndexesConstituents/tree/master/Data/JSON/DowJones30.json";
+            var expectedUriString = "https://raw.githubusercontent.com/rasodu/IndexesConstituents/master/Data/JSON/DowJones30.json";
             var client = new Mock<IHttpHandler>();
             client.Setup(c => c.SendAndReadAsString(It.IsAny<HttpRequestMessage>())).ReturnsAsync(json);
             var parser = new Mock<ConstituentParser>();
