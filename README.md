@@ -1,4 +1,4 @@
-# C# Client
+# [C# Client](https://www.nuget.org/packages/Rasodu.IndexesConstituents.Client/)
 
 You can use our C# client to read index constituents in your project.
 ```
