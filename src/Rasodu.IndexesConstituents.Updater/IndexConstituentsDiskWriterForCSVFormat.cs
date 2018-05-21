@@ -7,13 +7,17 @@ namespace Rasodu.IndexesConstituents.Updater
     internal class IndexConstituentsDiskWriterForCSVFormat : IIndexConstituentsDiskWriter
     {
         private TextWriter _destination;
-        internal IndexConstituentsDiskWriterForCSVFormat(TextWriter destination)
+        public IndexConstituentsDiskWriterForCSVFormat(TextWriter destination)
         {
             _destination = destination;
-            _destination.NewLine = "\n";
+        }
+        public string FileExtension()
+        {
+            return "csv";
         }
         public void ReplaceAll(List<Equity> equities)
         {
+            _destination.NewLine = "\n";
             var csv = new CsvWriter(_destination);
             csv.Configuration.Delimiter = ",";
             csv.WriteRecords<Equity>(equities);

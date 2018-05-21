@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace Rasodu.IndexesConstituents.Updater
 {
@@ -7,24 +8,33 @@ namespace Rasodu.IndexesConstituents.Updater
     {
         private IDictionary<string, Type> _sourceClasses;
         IndexesConstituentsStorageSingleton _storage;
-        IndexConstituentsDiskWriterFactory _storeFactory;
+        Helper _helper;
         internal IndexesConstituentsStorageDirector()
         {
             _sourceClasses = new Helper().GetAllSourceClasses();
             _storage = IndexesConstituentsStorageSingleton.Instance;
-            _storeFactory = new IndexConstituentsDiskWriterFactory();
+            _helper = new Helper();
         }
         internal IndexesConstituentsStorageSingleton GetEquityIndexesStorage()
         {
             //register equity index disk writer event
             foreach (var sourceClass in _sourceClasses)
             {
-                var csvStore = _storeFactory.GetCSVDiskWriter(sourceClass.Key);
-                var jsonStore = _storeFactory.GetJSONDiskWriter(sourceClass.Key);
-                _storage.OnEquityIndexUpdated(sourceClass.Key, new EquityIndexUpdated(csvStore.ReplaceAll));
-                _storage.OnEquityIndexUpdated(sourceClass.Key, new EquityIndexUpdated(jsonStore.ReplaceAll));
+                RegisterWritersForSource(sourceClass.Key);
             }
             return _storage;
+        }
+        private void RegisterWritersForSource(string equityIndexFilename)
+        {
+            var writerTypes = _helper.GetAllWriterClasses();
+            foreach (var type in writerTypes)
+            {
+                //example: CSV/DowJones30.csv
+                var textWriter = _helper.GetTextWriterForExistingFileInTree(type.Key.ToUpper() + Path.DirectorySeparatorChar + equityIndexFilename + "." + type.Key);
+                var typeConstructor = type.Value.GetConstructor(new Type[] { typeof(TextWriter) });
+                var typeObject = (IIndexConstituentsDiskWriter)typeConstructor.Invoke(new object[] { textWriter });
+                _storage.OnEquityIndexUpdated(equityIndexFilename, new EquityIndexUpdated(typeObject.ReplaceAll));
+            }
         }
     }
 }

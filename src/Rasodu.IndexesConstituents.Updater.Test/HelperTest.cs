@@ -1,15 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 using Xunit;
 
 namespace Rasodu.IndexesConstituents.Updater.Test
 {
     public class HelperTest
     {
-		[Fact]
-		public void GetAllSourceClasses()
-		{
+        [Fact]
+        public void GetAllSourceClasses()
+        {
             //arrange
             var helper = new Helper();
             var expectedSourceClasses = new Dictionary<String, Type>
@@ -23,6 +22,21 @@ namespace Rasodu.IndexesConstituents.Updater.Test
             var actualSourceClasses = helper.GetAllSourceClasses();
             //assert
             Assert.Equal(expectedSourceClasses, actualSourceClasses);
+        }
+        [Fact]
+        public void GetAllWriterClassesTest()
+        {
+            //arrange
+            var helper = new Helper();
+            var expectedDiskWriters = new Dictionary<string, Type>
+            {
+                {"csv", typeof(IndexConstituentsDiskWriterForCSVFormat) },
+                {"json", typeof(IndexConstituentsDiskWriterForJSONFormat) },
+            };
+            //act
+            var actualDiskWriters = helper.GetAllWriterClasses();
+            //assert
+            Assert.Equal(expectedDiskWriters, actualDiskWriters);
         }
     }
 }
