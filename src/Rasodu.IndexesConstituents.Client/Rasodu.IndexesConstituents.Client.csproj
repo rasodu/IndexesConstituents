@@ -1,10 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard1.1</TargetFramework>
     <!--nuget specific info : https://docs.microsoft.com/en-us/dotnet/core/tools/csproj#nuget-metadata-properties -->
     <PackageId>Rasodu.IndexesConstituents.Client</PackageId>
-    <Version>1.0.0</Version>
+    <Version>2.0.0</Version>
     <Authors>Abhijit Amin</Authors>
     <Company>Rasodu</Company>
     <Description>Pull constituents of well known stock indexes.</Description>

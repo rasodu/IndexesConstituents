@@ -1,11 +1,11 @@
-# [C# Client](https://www.nuget.org/packages/Rasodu.IndexesConstituents.Client/)
+# C# Client - [nuget.org](https://www.nuget.org/packages/Rasodu.IndexesConstituents.Client/)
 
 You can use our C# client to read index constituents in your project.
 ```
 async static Task<IEnumerable<Constituent>> GetConstituents()
 {
     var client = new IndexesConstituentsClient();
-    return await client.GetConstituents(StockExchange.DowJones30);
+    return await client.GetConstituents(Index.DowJones30);
 }
 ```
 

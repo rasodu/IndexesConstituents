@@ -1,6 +1,6 @@
 namespace Rasodu.IndexesConstituents.Client
 {
-    public enum StockExchange
+    public enum Index
     {
         DowJones30,
         Nasdaq100,

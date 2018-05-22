@@ -15,13 +15,13 @@ namespace Rasodu.IndexesConstituents.Client
             _client = client;
             _parser = parser;
         }
-        public virtual async Task<IEnumerable<Constituent>> GetConstituents(StockExchange exchange)
+        public virtual async Task<IEnumerable<Constituent>> GetConstituents(Index exchange)
         {
             var request = ComposeHttpRequest(exchange);
             var json = await _client.SendAndReadAsString(request);
             return _parser.ParseConstituent(json);
         }
-        private HttpRequestMessage ComposeHttpRequest(StockExchange exchange)
+        private HttpRequestMessage ComposeHttpRequest(Index exchange)
         {
             var uriString = Constants.JsonDir + "/" + exchange.ToString() + ".json";
             var request = new HttpRequestMessage

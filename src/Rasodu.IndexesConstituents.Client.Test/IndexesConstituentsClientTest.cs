@@ -26,7 +26,7 @@ namespace Rasodu.IndexesConstituents.Client.Test
             parser.Setup(p => p.ParseConstituent(json)).Returns(expectedConstituentList);
             var indexClient = new IndexesConstituentsClient(client.Object, parser.Object);
             //act
-            var result = indexClient.GetConstituents(StockExchange.DowJones30).GetAwaiter().GetResult();
+            var result = indexClient.GetConstituents(Index.DowJones30).GetAwaiter().GetResult();
             //assert
             client.Verify(c => c.SendAndReadAsString(It.Is<HttpRequestMessage>(r => r.RequestUri.AbsoluteUri == expectedUriString)), Times.Once());
             parser.Verify(p => p.ParseConstituent(It.Is<string>(str => str == json)), Times.Once());
