@@ -30,5 +30,5 @@ You can add scanner for the index and create a pull request. We will be happy to
 1. You must pull data from an official source.
 1. Source data must be in well know format(CSV,JSON,...).
 
-### I think data is out of date...
-We try our best to keep the data up to date. If you think data is not up to date, then run the scanner and create pull request.
+### I think data is outdated...
+We try our best to keep the data up to date. If you think data is not up to date, then run the scanner and create pull request with updated data files.
