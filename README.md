@@ -22,8 +22,8 @@ This project aggregates indexes information from various sources. Updated data i
 
 # FAQ
 
-### Where can I find data?
-List of stocks are available in CSV and JSON format. Files are in "Data" subdirectory of the repository. If you are C# developer, then you can use our C Sharp client to pull information.
+### I am not using C# or I need to access to raw data...
+If you are C# developer, then you can use our C Sharp client to pull constituents in an Index. However, lists are also available in CSV and JSON format. Files are in "Data" subdirectory of the repository.
 
 ### Index I am looking for is not available...
 You can add scanner for the index and create a pull request. We will be happy to accept your contribution. However you must follow two guidelines listed below:
