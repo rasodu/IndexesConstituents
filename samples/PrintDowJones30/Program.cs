@@ -22,7 +22,7 @@ namespace PrintDowJones30
         async static Task<IEnumerable<Constituent>> GetConstituents()
         {
             var client = new IndexesConstituentsClient();
-            return await client.GetConstituents(StockExchange.DowJones30);
+            return await client.GetConstituents(Index.DowJones30);
         }
     }
 }
