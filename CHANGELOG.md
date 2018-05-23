@@ -17,5 +17,5 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Client library target framework changed from .NET Standard 2.0 to .NET Standard 1.1
 
 
-## 2.0.0 - 2018-05-22
+## 1.0.0 - 2018-05-22
 - First NuGet release
