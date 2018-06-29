@@ -9,6 +9,10 @@
   },
   {
     "StockExchange": "NASDAQ",
+    "Identifier": "ABMD"
+  },
+  {
+    "StockExchange": "NASDAQ",
     "Identifier": "ADBE"
   },
   {
@@ -330,10 +334,6 @@
   {
     "StockExchange": "NASDAQ",
     "Identifier": "MYL"
-  },
-  {
-    "StockExchange": "NASDAQ",
-    "Identifier": "NAVI"
   },
   {
     "StockExchange": "NASDAQ",
@@ -673,10 +673,6 @@
   },
   {
     "StockExchange": "NYSE",
-    "Identifier": "AYI"
-  },
-  {
-    "StockExchange": "NYSE",
     "Identifier": "AZO"
   },
   {
@@ -734,6 +730,10 @@
   {
     "StockExchange": "NYSE",
     "Identifier": "BMY"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "BR"
   },
   {
     "StockExchange": "NYSE",
@@ -1025,6 +1025,10 @@
   },
   {
     "StockExchange": "NYSE",
+    "Identifier": "EVRG"
+  },
+  {
+    "StockExchange": "NYSE",
     "Identifier": "EW"
   },
   {
@@ -1070,6 +1074,10 @@
   {
     "StockExchange": "NYSE",
     "Identifier": "FLS"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "FLT"
   },
   {
     "StockExchange": "NYSE",
@@ -1154,6 +1162,10 @@
   {
     "StockExchange": "NYSE",
     "Identifier": "HES"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "HFC"
   },
   {
     "StockExchange": "NYSE",
@@ -1265,6 +1277,10 @@
   },
   {
     "StockExchange": "NYSE",
+    "Identifier": "JEF"
+  },
+  {
+    "StockExchange": "NYSE",
     "Identifier": "JNJ"
   },
   {
@@ -1369,10 +1385,6 @@
   },
   {
     "StockExchange": "NYSE",
-    "Identifier": "LUK"
-  },
-  {
-    "StockExchange": "NYSE",
     "Identifier": "LUV"
   },
   {
@@ -1446,10 +1458,6 @@
   {
     "StockExchange": "NYSE",
     "Identifier": "MO"
-  },
-  {
-    "StockExchange": "NYSE",
-    "Identifier": "MON"
   },
   {
     "StockExchange": "NYSE",
@@ -1709,10 +1717,6 @@
   },
   {
     "StockExchange": "NYSE",
-    "Identifier": "RRC"
-  },
-  {
-    "StockExchange": "NYSE",
     "Identifier": "RSG"
   },
   {
@@ -1849,7 +1853,7 @@
   },
   {
     "StockExchange": "NYSE",
-    "Identifier": "TWX"
+    "Identifier": "TWTR"
   },
   {
     "StockExchange": "NYSE",
@@ -1978,10 +1982,6 @@
   {
     "StockExchange": "NYSE",
     "Identifier": "WY"
-  },
-  {
-    "StockExchange": "NYSE",
-    "Identifier": "WYN"
   },
   {
     "StockExchange": "NYSE",

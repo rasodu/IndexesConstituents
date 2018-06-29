@@ -16,6 +16,10 @@
     "Identifier": "MSFT"
   },
   {
+    "StockExchange": "NASDAQ",
+    "Identifier": "WBA"
+  },
+  {
     "StockExchange": "NYSE",
     "Identifier": "AXP"
   },
@@ -38,10 +42,6 @@
   {
     "StockExchange": "NYSE",
     "Identifier": "DWDP"
-  },
-  {
-    "StockExchange": "NYSE",
-    "Identifier": "GE"
   },
   {
     "StockExchange": "NYSE",
