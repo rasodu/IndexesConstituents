@@ -121,6 +121,10 @@
   },
   {
     "StockExchange": "NASDAQ",
+    "Identifier": "CPRT"
+  },
+  {
+    "StockExchange": "NASDAQ",
     "Identifier": "CSCO"
   },
   {
@@ -386,6 +390,10 @@
   {
     "StockExchange": "NASDAQ",
     "Identifier": "PCAR"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "PEP"
   },
   {
     "StockExchange": "NASDAQ",
@@ -926,10 +934,6 @@
   {
     "StockExchange": "NYSE",
     "Identifier": "DOV"
-  },
-  {
-    "StockExchange": "NYSE",
-    "Identifier": "DPS"
   },
   {
     "StockExchange": "NYSE",
@@ -1574,10 +1578,6 @@
   {
     "StockExchange": "NYSE",
     "Identifier": "PEG"
-  },
-  {
-    "StockExchange": "NYSE",
-    "Identifier": "PEP"
   },
   {
     "StockExchange": "NYSE",

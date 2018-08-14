@@ -129,10 +129,6 @@
   },
   {
     "StockExchange": "NASDAQ",
-    "Identifier": "DISH"
-  },
-  {
-    "StockExchange": "NASDAQ",
     "Identifier": "DLTR"
   },
   {
@@ -306,6 +302,10 @@
   {
     "StockExchange": "NASDAQ",
     "Identifier": "PCAR"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "PEP"
   },
   {
     "StockExchange": "NASDAQ",
