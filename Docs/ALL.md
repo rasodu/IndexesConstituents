@@ -1,10 +1,3 @@
-# Requirements
-
-- Provide a way for developers to get constituents for well known indexes.
-- Developer should get updated data if the constituents list has been updated by index maintainer.
-- The data should contain both index and ticker for the constituents.
-
-
 # Architecture
 
 ### Projects
