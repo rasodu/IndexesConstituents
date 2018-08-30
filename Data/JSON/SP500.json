@@ -625,6 +625,10 @@
   },
   {
     "StockExchange": "NYSE",
+    "Identifier": "ANET"
+  },
+  {
+    "StockExchange": "NYSE",
     "Identifier": "ANTM"
   },
   {
@@ -1106,10 +1110,6 @@
   {
     "StockExchange": "NYSE",
     "Identifier": "GE"
-  },
-  {
-    "StockExchange": "NYSE",
-    "Identifier": "GGP"
   },
   {
     "StockExchange": "NYSE",
