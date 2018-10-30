@@ -221,6 +221,10 @@
   },
   {
     "StockExchange": "NASDAQ",
+    "Identifier": "FTNT"
+  },
+  {
+    "StockExchange": "NASDAQ",
     "Identifier": "GILD"
   },
   {
@@ -618,10 +622,6 @@
   {
     "StockExchange": "NYSE",
     "Identifier": "AMT"
-  },
-  {
-    "StockExchange": "NYSE",
-    "Identifier": "ANDV"
   },
   {
     "StockExchange": "NYSE",
@@ -1026,10 +1026,6 @@
   {
     "StockExchange": "NYSE",
     "Identifier": "ETR"
-  },
-  {
-    "StockExchange": "NYSE",
-    "Identifier": "EVHC"
   },
   {
     "StockExchange": "NYSE",
@@ -1713,6 +1709,10 @@
   },
   {
     "StockExchange": "NYSE",
+    "Identifier": "ROL"
+  },
+  {
+    "StockExchange": "NYSE",
     "Identifier": "ROP"
   },
   {
@@ -1945,6 +1945,10 @@
   },
   {
     "StockExchange": "NYSE",
+    "Identifier": "WCG"
+  },
+  {
+    "StockExchange": "NYSE",
     "Identifier": "WEC"
   },
   {
@@ -1990,10 +1994,6 @@
   {
     "StockExchange": "NYSE",
     "Identifier": "XEL"
-  },
-  {
-    "StockExchange": "NYSE",
-    "Identifier": "XL"
   },
   {
     "StockExchange": "NYSE",

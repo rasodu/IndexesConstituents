@@ -49,6 +49,10 @@
   },
   {
     "StockExchange": "NSE",
+    "Identifier": "BANDHANBNK"
+  },
+  {
+    "StockExchange": "NSE",
     "Identifier": "BANKBARODA"
   },
   {
@@ -62,6 +66,10 @@
   {
     "StockExchange": "NSE",
     "Identifier": "BHEL"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "BIOCON"
   },
   {
     "StockExchange": "NSE",
@@ -97,10 +105,6 @@
   },
   {
     "StockExchange": "NSE",
-    "Identifier": "CUMMINSIND"
-  },
-  {
-    "StockExchange": "NSE",
     "Identifier": "DABUR"
   },
   {
@@ -118,10 +122,6 @@
   {
     "StockExchange": "NSE",
     "Identifier": "EICHERMOT"
-  },
-  {
-    "StockExchange": "NSE",
-    "Identifier": "EMAMILTD"
   },
   {
     "StockExchange": "NSE",
@@ -157,6 +157,10 @@
   },
   {
     "StockExchange": "NSE",
+    "Identifier": "HDFCLIFE"
+  },
+  {
+    "StockExchange": "NSE",
     "Identifier": "HEROMOTOCO"
   },
   {
@@ -182,6 +186,10 @@
   {
     "StockExchange": "NSE",
     "Identifier": "ICICIBANK"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "ICICIGI"
   },
   {
     "StockExchange": "NSE",
@@ -269,6 +277,10 @@
   },
   {
     "StockExchange": "NSE",
+    "Identifier": "NIACL"
+  },
+  {
+    "StockExchange": "NSE",
     "Identifier": "NMDC"
   },
   {
@@ -297,10 +309,6 @@
   },
   {
     "StockExchange": "NSE",
-    "Identifier": "PFC"
-  },
-  {
-    "StockExchange": "NSE",
     "Identifier": "PGHH"
   },
   {
@@ -309,15 +317,7 @@
   },
   {
     "StockExchange": "NSE",
-    "Identifier": "PNB"
-  },
-  {
-    "StockExchange": "NSE",
     "Identifier": "POWERGRID"
-  },
-  {
-    "StockExchange": "NSE",
-    "Identifier": "RECLTD"
   },
   {
     "StockExchange": "NSE",
