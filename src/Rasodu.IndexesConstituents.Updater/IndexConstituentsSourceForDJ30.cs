@@ -25,7 +25,7 @@ namespace Rasodu.IndexesConstituents.Updater
         {
             var returnList = new List<Equity>();
             var str = _wikiPage.ReadToEnd();
-            var splitedString = str.Split(@"<table class=""wikitable sortable"">");
+            var splitedString = str.Split(@"<table class=""wikitable sortable"" id=""constituents"">");
             if (splitedString.Length < 2)
             {
                 return returnList;

@@ -14,7 +14,11 @@ namespace Rasodu.IndexesConstituents.Updater.Test
             //arrange
             var expectedWikipage = @"
 more text here-->
-<table class=""wikitable sortable"">
+<table class=""wikitable sortable"" id=""constituents"">
+
+<caption></caption>
+<tbody>
+
 <tr>
 <th>Company</th>
 <th>Exchange</th>
@@ -23,6 +27,7 @@ more text here-->
 <th>Date Added</th>
 <th>Notes</th>
 </tr>
+
 <tr>
 <td><a href=""/wiki/3M"" title=""3M"">3M</a></td>
 <td><a href=""/wiki/New_York_Stock_Exchange"" title=""New York Stock Exchange"">NYSE</a></td>
@@ -39,6 +44,9 @@ more text here-->
 <td>1982-08-30</td>
 <td></td>
 </tr>
+
+</tbody>
+
 </table>
 <--more text here
 ";
