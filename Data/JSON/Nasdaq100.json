@@ -37,6 +37,10 @@
   },
   {
     "StockExchange": "NASDAQ",
+    "Identifier": "AMD"
+  },
+  {
+    "StockExchange": "NASDAQ",
     "Identifier": "AMGN"
   },
   {
@@ -70,10 +74,6 @@
   {
     "StockExchange": "NASDAQ",
     "Identifier": "BMRN"
-  },
-  {
-    "StockExchange": "NASDAQ",
-    "Identifier": "CA"
   },
   {
     "StockExchange": "NASDAQ",
@@ -141,10 +141,6 @@
   },
   {
     "StockExchange": "NASDAQ",
-    "Identifier": "ESRX"
-  },
-  {
-    "StockExchange": "NASDAQ",
     "Identifier": "EXPE"
   },
   {
@@ -182,10 +178,6 @@
   {
     "StockExchange": "NASDAQ",
     "Identifier": "HAS"
-  },
-  {
-    "StockExchange": "NASDAQ",
-    "Identifier": "HOLX"
   },
   {
     "StockExchange": "NASDAQ",
@@ -245,6 +237,10 @@
   },
   {
     "StockExchange": "NASDAQ",
+    "Identifier": "LULU"
+  },
+  {
+    "StockExchange": "NASDAQ",
     "Identifier": "MAR"
   },
   {
@@ -285,11 +281,19 @@
   },
   {
     "StockExchange": "NASDAQ",
+    "Identifier": "NTAP"
+  },
+  {
+    "StockExchange": "NASDAQ",
     "Identifier": "NTES"
   },
   {
     "StockExchange": "NASDAQ",
     "Identifier": "NVDA"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "NXPI"
   },
   {
     "StockExchange": "NASDAQ",
@@ -317,10 +321,6 @@
   },
   {
     "StockExchange": "NASDAQ",
-    "Identifier": "QRTEA"
-  },
-  {
-    "StockExchange": "NASDAQ",
     "Identifier": "REGN"
   },
   {
@@ -333,19 +333,11 @@
   },
   {
     "StockExchange": "NASDAQ",
-    "Identifier": "SHPG"
-  },
-  {
-    "StockExchange": "NASDAQ",
     "Identifier": "SIRI"
   },
   {
     "StockExchange": "NASDAQ",
     "Identifier": "SNPS"
-  },
-  {
-    "StockExchange": "NASDAQ",
-    "Identifier": "STX"
   },
   {
     "StockExchange": "NASDAQ",
@@ -373,15 +365,19 @@
   },
   {
     "StockExchange": "NASDAQ",
+    "Identifier": "UAL"
+  },
+  {
+    "StockExchange": "NASDAQ",
     "Identifier": "ULTA"
   },
   {
     "StockExchange": "NASDAQ",
-    "Identifier": "VOD"
+    "Identifier": "VRSK"
   },
   {
     "StockExchange": "NASDAQ",
-    "Identifier": "VRSK"
+    "Identifier": "VRSN"
   },
   {
     "StockExchange": "NASDAQ",
@@ -401,14 +397,18 @@
   },
   {
     "StockExchange": "NASDAQ",
+    "Identifier": "WLTW"
+  },
+  {
+    "StockExchange": "NASDAQ",
     "Identifier": "WYNN"
   },
   {
     "StockExchange": "NASDAQ",
-    "Identifier": "XLNX"
+    "Identifier": "XEL"
   },
   {
     "StockExchange": "NASDAQ",
-    "Identifier": "XRAY"
+    "Identifier": "XLNX"
   }
 ]

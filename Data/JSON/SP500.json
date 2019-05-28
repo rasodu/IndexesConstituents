@@ -77,14 +77,6 @@
   },
   {
     "StockExchange": "NASDAQ",
-    "Identifier": "CA"
-  },
-  {
-    "StockExchange": "NASDAQ",
-    "Identifier": "CBOE"
-  },
-  {
-    "StockExchange": "NASDAQ",
     "Identifier": "CDNS"
   },
   {
@@ -173,10 +165,6 @@
   },
   {
     "StockExchange": "NASDAQ",
-    "Identifier": "ESRX"
-  },
-  {
-    "StockExchange": "NASDAQ",
     "Identifier": "ETFC"
   },
   {
@@ -186,6 +174,10 @@
   {
     "StockExchange": "NASDAQ",
     "Identifier": "EXPE"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "FANG"
   },
   {
     "StockExchange": "NASDAQ",
@@ -241,10 +233,6 @@
   },
   {
     "StockExchange": "NASDAQ",
-    "Identifier": "GT"
-  },
-  {
-    "StockExchange": "NASDAQ",
     "Identifier": "HAS"
   },
   {
@@ -297,6 +285,10 @@
   },
   {
     "StockExchange": "NASDAQ",
+    "Identifier": "JKHY"
+  },
+  {
+    "StockExchange": "NASDAQ",
     "Identifier": "KHC"
   },
   {
@@ -341,11 +333,11 @@
   },
   {
     "StockExchange": "NASDAQ",
-    "Identifier": "MYL"
+    "Identifier": "MXIM"
   },
   {
     "StockExchange": "NASDAQ",
-    "Identifier": "NCLH"
+    "Identifier": "MYL"
   },
   {
     "StockExchange": "NASDAQ",
@@ -370,6 +362,10 @@
   {
     "StockExchange": "NASDAQ",
     "Identifier": "NVDA"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "NWL"
   },
   {
     "StockExchange": "NASDAQ",
@@ -434,10 +430,6 @@
   {
     "StockExchange": "NASDAQ",
     "Identifier": "SNPS"
-  },
-  {
-    "StockExchange": "NASDAQ",
-    "Identifier": "SRCL"
   },
   {
     "StockExchange": "NASDAQ",
@@ -565,10 +557,6 @@
   },
   {
     "StockExchange": "NYSE",
-    "Identifier": "AET"
-  },
-  {
-    "StockExchange": "NYSE",
     "Identifier": "AFL"
   },
   {
@@ -669,6 +657,10 @@
   },
   {
     "StockExchange": "NYSE",
+    "Identifier": "ATO"
+  },
+  {
+    "StockExchange": "NYSE",
     "Identifier": "AVB"
   },
   {
@@ -718,10 +710,6 @@
   {
     "StockExchange": "NYSE",
     "Identifier": "BF.B"
-  },
-  {
-    "StockExchange": "NYSE",
-    "Identifier": "BHF"
   },
   {
     "StockExchange": "NYSE",
@@ -801,6 +789,10 @@
   },
   {
     "StockExchange": "NYSE",
+    "Identifier": "CE"
+  },
+  {
+    "StockExchange": "NYSE",
     "Identifier": "CF"
   },
   {
@@ -857,10 +849,6 @@
   },
   {
     "StockExchange": "NYSE",
-    "Identifier": "COL"
-  },
-  {
-    "StockExchange": "NYSE",
     "Identifier": "COO"
   },
   {
@@ -874,6 +862,10 @@
   {
     "StockExchange": "NYSE",
     "Identifier": "CPB"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "CPRI"
   },
   {
     "StockExchange": "NYSE",
@@ -938,6 +930,10 @@
   {
     "StockExchange": "NYSE",
     "Identifier": "DOV"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "DOW"
   },
   {
     "StockExchange": "NYSE",
@@ -1006,10 +1002,6 @@
   {
     "StockExchange": "NYSE",
     "Identifier": "EQR"
-  },
-  {
-    "StockExchange": "NYSE",
-    "Identifier": "EQT"
   },
   {
     "StockExchange": "NYSE",
@@ -1086,6 +1078,10 @@
   {
     "StockExchange": "NYSE",
     "Identifier": "FMC"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "FRC"
   },
   {
     "StockExchange": "NYSE",
@@ -1305,6 +1301,10 @@
   },
   {
     "StockExchange": "NYSE",
+    "Identifier": "KEYS"
+  },
+  {
+    "StockExchange": "NYSE",
     "Identifier": "KIM"
   },
   {
@@ -1322,10 +1322,6 @@
   {
     "StockExchange": "NYSE",
     "Identifier": "KO"
-  },
-  {
-    "StockExchange": "NYSE",
-    "Identifier": "KORS"
   },
   {
     "StockExchange": "NYSE",
@@ -1361,6 +1357,10 @@
   },
   {
     "StockExchange": "NYSE",
+    "Identifier": "LIN"
+  },
+  {
+    "StockExchange": "NYSE",
     "Identifier": "LLL"
   },
   {
@@ -1386,6 +1386,10 @@
   {
     "StockExchange": "NYSE",
     "Identifier": "LUV"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "LW"
   },
   {
     "StockExchange": "NYSE",
@@ -1501,15 +1505,15 @@
   },
   {
     "StockExchange": "NYSE",
+    "Identifier": "NCLH"
+  },
+  {
+    "StockExchange": "NYSE",
     "Identifier": "NEE"
   },
   {
     "StockExchange": "NYSE",
     "Identifier": "NEM"
-  },
-  {
-    "StockExchange": "NYSE",
-    "Identifier": "NFX"
   },
   {
     "StockExchange": "NYSE",
@@ -1545,10 +1549,6 @@
   },
   {
     "StockExchange": "NYSE",
-    "Identifier": "NWL"
-  },
-  {
-    "StockExchange": "NYSE",
     "Identifier": "O"
   },
   {
@@ -1566,10 +1566,6 @@
   {
     "StockExchange": "NYSE",
     "Identifier": "OXY"
-  },
-  {
-    "StockExchange": "NYSE",
-    "Identifier": "PCG"
   },
   {
     "StockExchange": "NYSE",
@@ -1661,10 +1657,6 @@
   },
   {
     "StockExchange": "NYSE",
-    "Identifier": "PX"
-  },
-  {
-    "StockExchange": "NYSE",
     "Identifier": "PXD"
   },
   {
@@ -1722,10 +1714,6 @@
   {
     "StockExchange": "NYSE",
     "Identifier": "RTN"
-  },
-  {
-    "StockExchange": "NYSE",
-    "Identifier": "SCG"
   },
   {
     "StockExchange": "NYSE",
@@ -1814,6 +1802,10 @@
   {
     "StockExchange": "NYSE",
     "Identifier": "TEL"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "TFX"
   },
   {
     "StockExchange": "NYSE",
@@ -1941,6 +1933,10 @@
   },
   {
     "StockExchange": "NYSE",
+    "Identifier": "WAB"
+  },
+  {
+    "StockExchange": "NYSE",
     "Identifier": "WAT"
   },
   {
@@ -2018,5 +2014,9 @@
   {
     "StockExchange": "NYSE",
     "Identifier": "ZTS"
+  },
+  {
+    "StockExchange": "UNKNOWN",
+    "Identifier": "CBOE"
   }
 ]

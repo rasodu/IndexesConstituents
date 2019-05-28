@@ -5,10 +5,6 @@
   },
   {
     "StockExchange": "NSE",
-    "Identifier": "ABCAPITAL"
-  },
-  {
-    "StockExchange": "NSE",
     "Identifier": "ACC"
   },
   {
@@ -45,6 +41,10 @@
   },
   {
     "StockExchange": "NSE",
+    "Identifier": "BAJAJHLDNG"
+  },
+  {
+    "StockExchange": "NSE",
     "Identifier": "BAJFINANCE"
   },
   {
@@ -54,10 +54,6 @@
   {
     "StockExchange": "NSE",
     "Identifier": "BANKBARODA"
-  },
-  {
-    "StockExchange": "NSE",
-    "Identifier": "BEL"
   },
   {
     "StockExchange": "NSE",
@@ -109,6 +105,10 @@
   },
   {
     "StockExchange": "NSE",
+    "Identifier": "DIVISLAB"
+  },
+  {
+    "StockExchange": "NSE",
     "Identifier": "DLF"
   },
   {
@@ -150,6 +150,10 @@
   {
     "StockExchange": "NSE",
     "Identifier": "HDFC"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "HDFCAMC"
   },
   {
     "StockExchange": "NSE",
@@ -237,10 +241,6 @@
   },
   {
     "StockExchange": "NSE",
-    "Identifier": "LICHSGFIN"
-  },
-  {
-    "StockExchange": "NSE",
     "Identifier": "LT"
   },
   {
@@ -293,11 +293,11 @@
   },
   {
     "StockExchange": "NSE",
-    "Identifier": "OIL"
+    "Identifier": "ONGC"
   },
   {
     "StockExchange": "NSE",
-    "Identifier": "ONGC"
+    "Identifier": "PAGEIND"
   },
   {
     "StockExchange": "NSE",
@@ -353,10 +353,6 @@
   },
   {
     "StockExchange": "NSE",
-    "Identifier": "SUNTV"
-  },
-  {
-    "StockExchange": "NSE",
     "Identifier": "TATAMOTORS"
   },
   {
@@ -378,6 +374,10 @@
   {
     "StockExchange": "NSE",
     "Identifier": "TITAN"
+  },
+  {
+    "StockExchange": "NSE",
+    "Identifier": "UBL"
   },
   {
     "StockExchange": "NSE",
