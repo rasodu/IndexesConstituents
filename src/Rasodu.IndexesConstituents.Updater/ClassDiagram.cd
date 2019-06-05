@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Rasodu.IndexesConstituents.Updater.IndexConstituentsDiskWriterForCSVFormat" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.75" Y="6.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAEEAAAAAAA=</HashCode>
+      <FileName>IndexConstituentsDiskWriterForCSVFormat.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Rasodu.IndexesConstituents.Updater.IndexConstituentsDiskWriterForJSONFormat" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.75" Y="7.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAEEAAAAAAA=</HashCode>
+      <FileName>IndexConstituentsDiskWriterForJSONFormat.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Rasodu.IndexesConstituents.Updater.IndexConstituentsSourceForDJ30" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="6.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAABAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IndexConstituentsSourceForDJ30.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Rasodu.IndexesConstituents.Updater.IndexConstituentsSourceForNasdaq100" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="7.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAACBAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IndexConstituentsSourceForNasdaq100.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Rasodu.IndexesConstituents.Updater.IndexConstituentsSourceForNifty100" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="8.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAACBAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IndexConstituentsSourceForNifty100.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Rasodu.IndexesConstituents.Updater.IndexConstituentsSourceForSP500" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="9.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAABAAAAAAABAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IndexConstituentsSourceForSP500.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Rasodu.IndexesConstituents.Updater.IndexConstituentsSourceFactory" Collapsed="true">
+    <Position X="5.25" Y="2.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IndexConstituentsSourceFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rasodu.IndexesConstituents.Updater.IndexesConstituentsStorageDirector" Collapsed="true">
+    <Position X="0.75" Y="3.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAASAAAAAAAAAAAAAAAgAAAAgAA=</HashCode>
+      <FileName>IndexesConstituentsStorageDirector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rasodu.IndexesConstituents.Updater.IndexesConstituentsStorageSingleton" Collapsed="true">
+    <Position X="0.75" Y="2.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAJAAAAAAAAAgAQAAAAAAIAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>IndexesConstituentsStorageSingleton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rasodu.IndexesConstituents.Updater.IndexesConstituentsUpdater" Collapsed="true">
+    <Position X="2" Y="1.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAACAEAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IndexesConstituentsUpdater.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rasodu.IndexesConstituents.Updater.Equity" Collapsed="true">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQQgAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Equity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Rasodu.IndexesConstituents.Updater.Helper" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIACAAAACAQAGAAAACCAAAAAAAAAAAAAABAAAQAAAA=</HashCode>
+      <FileName>Helper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Rasodu.IndexesConstituents.Updater.IIndexConstituentsDiskWriter" Collapsed="true">
+    <Position X="0.75" Y="5.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEEAAAAAAA=</HashCode>
+      <FileName>IIndexConstituentsDiskWriter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Rasodu.IndexesConstituents.Updater.IIndexConstituentsSource" Collapsed="true">
+    <Position X="5.25" Y="5.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IIndexConstituentsSource.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

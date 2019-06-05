@@ -877,6 +877,10 @@
   },
   {
     "StockExchange": "NYSE",
+    "Identifier": "CTVA"
+  },
+  {
+    "StockExchange": "NYSE",
     "Identifier": "CVS"
   },
   {
@@ -894,6 +898,10 @@
   {
     "StockExchange": "NYSE",
     "Identifier": "DAL"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "DD"
   },
   {
     "StockExchange": "NYSE",
@@ -958,10 +966,6 @@
   {
     "StockExchange": "NYSE",
     "Identifier": "DVN"
-  },
-  {
-    "StockExchange": "NYSE",
-    "Identifier": "DWDP"
   },
   {
     "StockExchange": "NYSE",
@@ -1062,10 +1066,6 @@
   {
     "StockExchange": "NYSE",
     "Identifier": "FL"
-  },
-  {
-    "StockExchange": "NYSE",
-    "Identifier": "FLR"
   },
   {
     "StockExchange": "NYSE",
