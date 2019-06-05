@@ -11,7 +11,7 @@ namespace PrintDowJones30
         {
             PrintConstituents().GetAwaiter().GetResult();
         }
-        async static Task PrintConstituents()
+        static async Task PrintConstituents()
         {
             var constituents = await GetConstituents();
             foreach (var constituent in constituents)
@@ -19,7 +19,7 @@ namespace PrintDowJones30
                 Console.WriteLine($"Stock = {constituent.StockExchange}:{constituent.Identifier}");
             }
         }
-        async static Task<IEnumerable<Constituent>> GetConstituents()
+        static async Task<IEnumerable<Constituent>> GetConstituents()
         {
             var client = new IndexesConstituentsClient();
             return await client.GetConstituents(Index.DowJones30);

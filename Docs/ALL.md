@@ -24,7 +24,8 @@ This project aggregates indexes information from various sources. Updated data i
 
 ### Tools
 - [Git](https://git-scm.com/downloads)
-- [VS Code](https://code.visualstudio.com/download) or [Visual Studio](https://visualstudio.microsoft.com/downloads/)
+- Install all SDKs listed on [.NET SDK page](https://dotnet.microsoft.com/download/visual-studio-sdks?utm_source=getdotnetsdk&utm_medium=referral) - All SDKs are required because old runtimes are not bundled with all SDKs. Installing all SDKs will allow you to build apps for any version of .NET Core.
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/) ~or [VS Code](https://code.visualstudio.com/download)~
 - ~[SDK 2.1.101](https://github.com/dotnet/core/blob/master/release-notes/2.0/2.0.6.md) : We have pinned SDK version for the software and runtime version in Xunit projects~
 
 ### Development flow
