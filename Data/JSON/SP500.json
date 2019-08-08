@@ -309,15 +309,15 @@
   },
   {
     "StockExchange": "NASDAQ",
-    "Identifier": "MAT"
-  },
-  {
-    "StockExchange": "NASDAQ",
     "Identifier": "MCHP"
   },
   {
     "StockExchange": "NASDAQ",
     "Identifier": "MDLZ"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "MKTX"
   },
   {
     "StockExchange": "NASDAQ",
@@ -442,6 +442,10 @@
   {
     "StockExchange": "NASDAQ",
     "Identifier": "SYMC"
+  },
+  {
+    "StockExchange": "NASDAQ",
+    "Identifier": "TMUS"
   },
   {
     "StockExchange": "NASDAQ",
@@ -594,6 +598,10 @@
   {
     "StockExchange": "NYSE",
     "Identifier": "ALLE"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "AMCR"
   },
   {
     "StockExchange": "NYSE",
@@ -1205,10 +1213,6 @@
   },
   {
     "StockExchange": "NYSE",
-    "Identifier": "HRS"
-  },
-  {
-    "StockExchange": "NYSE",
     "Identifier": "HST"
   },
   {
@@ -1357,11 +1361,11 @@
   },
   {
     "StockExchange": "NYSE",
-    "Identifier": "LIN"
+    "Identifier": "LHX"
   },
   {
     "StockExchange": "NYSE",
-    "Identifier": "LLL"
+    "Identifier": "LIN"
   },
   {
     "StockExchange": "NYSE",
@@ -1678,10 +1682,6 @@
   {
     "StockExchange": "NYSE",
     "Identifier": "RHI"
-  },
-  {
-    "StockExchange": "NYSE",
-    "Identifier": "RHT"
   },
   {
     "StockExchange": "NYSE",
