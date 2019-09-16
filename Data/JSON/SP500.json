@@ -641,10 +641,6 @@
   },
   {
     "StockExchange": "NYSE",
-    "Identifier": "APC"
-  },
-  {
-    "StockExchange": "NYSE",
     "Identifier": "APD"
   },
   {
@@ -1073,10 +1069,6 @@
   },
   {
     "StockExchange": "NYSE",
-    "Identifier": "FL"
-  },
-  {
-    "StockExchange": "NYSE",
     "Identifier": "FLS"
   },
   {
@@ -1114,6 +1106,10 @@
   {
     "StockExchange": "NYSE",
     "Identifier": "GIS"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "GL"
   },
   {
     "StockExchange": "NYSE",
@@ -1233,6 +1229,10 @@
   },
   {
     "StockExchange": "NYSE",
+    "Identifier": "IEX"
+  },
+  {
+    "StockExchange": "NYSE",
     "Identifier": "IFF"
   },
   {
@@ -1346,6 +1346,10 @@
   {
     "StockExchange": "NYSE",
     "Identifier": "LB"
+  },
+  {
+    "StockExchange": "NYSE",
+    "Identifier": "LDOS"
   },
   {
     "StockExchange": "NYSE",
@@ -1818,10 +1822,6 @@
   {
     "StockExchange": "NYSE",
     "Identifier": "TJX"
-  },
-  {
-    "StockExchange": "NYSE",
-    "Identifier": "TMK"
   },
   {
     "StockExchange": "NYSE",
